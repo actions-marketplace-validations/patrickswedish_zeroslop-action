@@ -1,0 +1,72 @@
+name: 'ZeroSlop™ by Ribbsaeter Systems'
+author: 'Patrick Ribbsaeter / Ribbsaeter Systems'
+description: 'Sovereign pre-flight invariant airlock for pull requests. Purge AI slop, isolate compilers, 100% green CI.'
+branding:
+  icon: 'shield'
+  color: 'red'
+
+inputs:
+  api_key:
+    description: 'Ribbsaeter Systems ZeroSlop API key (Optional for 1-PR Free Evaluation Try; required after 1st PR for Pro & Enterprise)'
+    required: false
+    default: ''
+  base_branch:
+    description: 'Base branch to compare against'
+    required: false
+    default: 'main'
+  auto_polish:
+    description: 'Automatically run repository-native linters and auto-commit clean code'
+    required: false
+    default: 'true'
+  fail_on_slop:
+    description: 'Fail the action if unmitigated AI slop or invariant violations are detected'
+    required: false
+    default: 'true'
+  ci_diagnostics:
+    description: 'Enable Pro CI Intelligence & Flake Classifier (categorizes checks into Contributor Green vs Maintainer Gates vs Upstream Flakes)'
+    required: false
+    default: 'false'
+  license_key:
+    description: 'ZeroSlop Pro/Enterprise License Key (from Stripe Checkout)'
+    required: false
+    default: ''
+  github_token:
+    description: 'GitHub token for querying pull request checks and posting the single in-place Sovereign Verdict comment (defaults to github.token)'
+    required: false
+    default: ${{ github.token }}
+  api_endpoint:
+    description: 'ZeroSlop verification API endpoint (for custom on-premise or VPC deployments)'
+    required: false
+    default: 'https://www.ribbsaetersystems.com/api/v1/verify'
+  post_pr_comment:
+    description: 'Automatically post/update a single in-place ZeroSlop Sovereign Audit Verdict comment on the Pull Request'
+    required: false
+    default: 'true'
+  auto_close_slop:
+    description: 'Automatically close Pull Requests that fail with severe AI slop (>=60%) or CRITICAL CWE vulnerabilities (Pro/Enterprise)'
+    required: false
+    default: 'false'
+
+outputs:
+  slop_score:
+    description: 'Calculated slop percentage (0% to 100%)'
+  lines_reduced:
+    description: 'Total percentage of bloated lines eliminated'
+  invariants_verified:
+    description: 'Count of architectural invariants proved green'
+  ci_classification:
+    description: 'Overall classification of CI runs: ALL_GREEN, TRIAGE_GATED, INFRA_FLAKE, or CODE_DEFECT'
+  flaky_jobs_count:
+    description: 'Number of upstream runner timeouts or toolchain flakes isolated'
+  gated_jobs_count:
+    description: 'Number of maintainer triage gates isolated'
+  security_findings_count:
+    description: 'Total count of deterministic CWE security vulnerabilities blocked (CWE-89, CWE-798, CWE-639, etc.)'
+  critical_cwe_count:
+    description: 'Count of CRITICAL severity CWE security findings'
+  blast_radius_layers:
+    description: 'Count of architectural layers impacted by the pull request diff'
+
+runs:
+  using: 'node20'
+  main: 'dist/index.js'

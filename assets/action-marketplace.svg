@@ -1,0 +1,72 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="580" height="84" viewBox="0 0 580 84" role="img" aria-labelledby="title desc">
+  <title id="title">Install ZeroSlop on GitHub Marketplace</title>
+  <desc id="desc">Direct link to install ZeroSlop and try 1 PR free on GitHub Marketplace.</desc>
+  <defs>
+    <style>
+      .card-border-cyan { animation: pulseGlowCyan 3s ease-in-out infinite; }
+      .sheen { animation: sheenPass 6s ease-in-out infinite; }
+      @keyframes pulseGlowCyan {
+        0%, 100% { stroke-opacity: 0.35; filter: drop-shadow(0 0 2px rgba(0, 210, 255, 0.25)); }
+        50% { stroke-opacity: 0.85; filter: drop-shadow(0 0 8px rgba(0, 210, 255, 0.65)); }
+      }
+      @keyframes sheenPass {
+        0% { transform: translateX(-180px); opacity: 0; }
+        25% { opacity: 0.20; }
+        50%, 100% { transform: translateX(620px); opacity: 0; }
+      }
+      @media (prefers-reduced-motion: reduce) {
+        .card-border-cyan, .sheen { animation: none; }
+      }
+    </style>
+    <linearGradient id="bgCyan" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#040913"/>
+      <stop offset="0.5" stop-color="#071322"/>
+      <stop offset="1" stop-color="#0A1C30"/>
+    </linearGradient>
+    <linearGradient id="accentCyan" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#00D2FF"/>
+      <stop offset="1" stop-color="#10B981"/>
+    </linearGradient>
+    <linearGradient id="sheenGrad" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#FFFFFF" stop-opacity="0"/>
+      <stop offset="0.5" stop-color="#FFFFFF" stop-opacity="0.28"/>
+      <stop offset="1" stop-color="#FFFFFF" stop-opacity="0"/>
+    </linearGradient>
+    <pattern id="gridCyan" width="20" height="20" patternUnits="userSpaceOnUse">
+      <path d="M 20 0 L 0 0 0 20" fill="none" stroke="#75B5DE" stroke-opacity="0.04"/>
+    </pattern>
+    <clipPath id="cardClipCyan">
+      <rect width="580" height="84" rx="14"/>
+    </clipPath>
+  </defs>
+
+  <g clip-path="url(#cardClipCyan)">
+    <rect width="580" height="84" fill="url(#bgCyan)"/>
+    <rect width="580" height="84" fill="url(#gridCyan)"/>
+    
+    <rect class="sheen" x="0" y="0" width="140" height="84" fill="url(#sheenGrad)" transform="skewX(-20)"/>
+
+    <rect width="5" height="84" fill="url(#accentCyan)"/>
+
+    <!-- Icon Box -->
+    <g transform="translate(20, 18)">
+      <rect width="48" height="48" rx="12" fill="#071829" stroke="#00D2FF" stroke-opacity="0.4" stroke-width="1.2"/>
+      <g fill="none" stroke="#10B981" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+        <circle cx="24" cy="24" r="14" stroke="#00D2FF" stroke-width="1.8"/>
+        <path d="M 17 24 L 22 29 L 31 19"/>
+      </g>
+    </g>
+
+    <text x="82" y="34" fill="#00D2FF" font-family="Inter, -apple-system, BlinkMacSystemFont, sans-serif" font-size="10" font-weight="800" letter-spacing="2">GITHUB MARKETPLACE · 1-PR FREE TRY</text>
+    <text x="82" y="58" fill="#F8FAFC" font-family="Inter, -apple-system, BlinkMacSystemFont, sans-serif" font-size="18" font-weight="900" letter-spacing="-0.2">INSTALL ACTION NOW</text>
+
+    <!-- Right Action Pill -->
+    <g transform="translate(440, 24)">
+      <rect width="118" height="36" rx="9" fill="#092138" stroke="#10B981" stroke-opacity="0.5" stroke-width="1.2"/>
+      <text x="48" y="23" text-anchor="middle" fill="#FFFFFF" font-family="Inter, -apple-system, BlinkMacSystemFont, sans-serif" font-size="11" font-weight="800" letter-spacing="0.5">TRY FREE</text>
+      <text x="98" y="23" text-anchor="middle" fill="#10B981" font-family="Arial, sans-serif" font-size="14" font-weight="900">➔</text>
+    </g>
+
+    <rect class="card-border-cyan" x="0.5" y="0.5" width="579" height="83" rx="13.5" fill="none" stroke="#00D2FF" stroke-width="1.2"/>
+  </g>
+</svg>

@@ -1,0 +1,90 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="130" viewBox="0 0 1200 130" role="img" aria-labelledby="cta-title cta-desc">
+  <title id="cta-title">ZeroSlop™ — Install Now &amp; Try 1 PR Free</title>
+  <desc id="cta-desc">Official GitHub Marketplace installation banner with 14-Day Money-Back Guarantee and 1 PR Free Evaluation.</desc>
+  <defs>
+    <style>
+      @keyframes borderGlow {
+        0%, 100% { stroke-opacity: 0.35; filter: drop-shadow(0 0 4px rgba(16, 185, 129, 0.3)); }
+        50% { stroke-opacity: 0.90; filter: drop-shadow(0 0 14px rgba(0, 210, 255, 0.7)); }
+      }
+      @keyframes laserSheen {
+        0% { transform: translateX(-350px); opacity: 0; }
+        20% { opacity: 0.30; }
+        45%, 100% { transform: translateX(1300px); opacity: 0; }
+      }
+      @keyframes beaconPulse {
+        0%, 100% { opacity: 0.5; transform: scale(1); }
+        50% { opacity: 1; transform: scale(1.15); }
+      }
+      .animated-border { animation: borderGlow 3s ease-in-out infinite; }
+      .laser-sheen { animation: laserSheen 6s ease-in-out infinite; }
+      .beacon-dot { animation: beaconPulse 2s ease-in-out infinite; transform-origin: 48px 46px; }
+      @media (prefers-reduced-motion: reduce) {
+        .animated-border, .laser-sheen, .beacon-dot { animation: none; }
+      }
+    </style>
+    
+    <linearGradient id="ctaBg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#050811"/>
+      <stop offset="0.5" stop-color="#091322"/>
+      <stop offset="1" stop-color="#04070D"/>
+    </linearGradient>
+
+    <linearGradient id="borderGrad" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#10B981"/>
+      <stop offset="0.5" stop-color="#00D2FF"/>
+      <stop offset="1" stop-color="#3B82F6"/>
+    </linearGradient>
+
+    <linearGradient id="sheenBeam" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#FFFFFF" stop-opacity="0"/>
+      <stop offset="0.5" stop-color="#FFFFFF" stop-opacity="0.35"/>
+      <stop offset="1" stop-color="#FFFFFF" stop-opacity="0"/>
+    </linearGradient>
+
+    <linearGradient id="btnPlateBg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0B2038"/>
+      <stop offset="1" stop-color="#05101E"/>
+    </linearGradient>
+
+    <clipPath id="ctaClip">
+      <rect width="1200" height="130" rx="14"/>
+    </clipPath>
+  </defs>
+
+  <g clip-path="url(#ctaClip)">
+    <!-- Base Background -->
+    <rect width="1200" height="130" fill="url(#ctaBg)"/>
+    
+    <!-- Sheen Animation -->
+    <rect class="laser-sheen" x="0" y="0" width="220" height="130" fill="url(#sheenBeam)" transform="skewX(-20)"/>
+
+    <!-- Left Cyan Beacon & Status -->
+    <circle cx="48" cy="46" r="6" fill="#064E3B"/>
+    <circle class="beacon-dot" cx="48" cy="46" r="3.5" fill="#10B981"/>
+    
+    <text x="66" y="50" fill="#34D399" font-family="Inter,-apple-system,sans-serif" font-size="10" font-weight="800" letter-spacing="1.5">SOVEREIGN PRE-FLIGHT AIRLOCK · 1-PR FREE EVALUATION</text>
+
+    <!-- Main Hero Hook -->
+    <text x="48" y="80" fill="#F8FAFC" font-family="Inter,-apple-system,sans-serif" font-size="22" font-weight="900" letter-spacing="-0.3">INSTALL IN 60 SECONDS — GET 100% MERGE-READY</text>
+
+    <!-- Guarantee & Subtitle -->
+    <text x="48" y="104" fill="#94A3B8" font-family="Inter,-apple-system,sans-serif" font-size="12" font-weight="600">
+      Zero Credit Card · Blocks 12 CWEs &amp; Test Deletions · <tspan fill="#F59E0B" font-weight="700">14-Day Money-Back Guarantee on Pro Seats</tspan>
+    </text>
+
+    <!-- Right Side: Glowing Action Button Plate -->
+    <g transform="translate(850, 32)">
+      <rect width="308" height="66" rx="12" fill="url(#btnPlateBg)" stroke="#00D2FF" stroke-opacity="0.6" stroke-width="1.5"/>
+      <rect width="4" height="66" rx="2" fill="#10B981"/>
+      
+      <!-- Button Badge Text -->
+      <text x="24" y="27" fill="#00D2FF" font-family="Inter,-apple-system,sans-serif" font-size="9" font-weight="800" letter-spacing="1.2">GITHUB MARKETPLACE</text>
+      <text x="24" y="47" fill="#FFFFFF" font-family="Inter,-apple-system,sans-serif" font-size="15" font-weight="900" letter-spacing="0.2">INSTALL NOW · FREE</text>
+      <text x="278" y="43" fill="#10B981" font-family="Arial,sans-serif" font-size="20" font-weight="900">➔</text>
+    </g>
+
+    <!-- Outer Animated Border -->
+    <rect class="animated-border" x="0.5" y="0.5" width="1199" height="129" rx="13.5" fill="none" stroke="url(#borderGrad)" stroke-width="1.4"/>
+  </g>
+</svg>

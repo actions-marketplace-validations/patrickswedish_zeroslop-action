@@ -1,0 +1,72 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="580" height="84" viewBox="0 0 580 84" role="img" aria-labelledby="title desc">
+  <title id="title">Try Interactive Diff Simulator</title>
+  <desc id="desc">Launch the 184-line slop to 4-line surgical invariant simulator.</desc>
+  <defs>
+    <style>
+      .card-border-emerald { animation: pulseGlowEmerald 3s ease-in-out infinite; }
+      .sheen-emerald { animation: sheenPassEmerald 6s ease-in-out infinite; }
+      @keyframes pulseGlowEmerald {
+        0%, 100% { stroke-opacity: 0.35; filter: drop-shadow(0 0 2px rgba(52, 211, 153, 0.25)); }
+        50% { stroke-opacity: 0.85; filter: drop-shadow(0 0 8px rgba(52, 211, 153, 0.65)); }
+      }
+      @keyframes sheenPassEmerald {
+        0% { transform: translateX(-180px); opacity: 0; }
+        25% { opacity: 0.20; }
+        50%, 100% { transform: translateX(620px); opacity: 0; }
+      }
+      @media (prefers-reduced-motion: reduce) {
+        .card-border-emerald, .sheen-emerald { animation: none; }
+      }
+    </style>
+    <linearGradient id="bgEmerald" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#040913"/>
+      <stop offset="0.5" stop-color="#05141D"/>
+      <stop offset="1" stop-color="#092026"/>
+    </linearGradient>
+    <linearGradient id="accentEmerald" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#10B981"/>
+      <stop offset="1" stop-color="#34D399"/>
+    </linearGradient>
+    <linearGradient id="sheenGradEmerald" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#FFFFFF" stop-opacity="0"/>
+      <stop offset="0.5" stop-color="#FFFFFF" stop-opacity="0.28"/>
+      <stop offset="1" stop-color="#FFFFFF" stop-opacity="0"/>
+    </linearGradient>
+    <pattern id="gridEmerald" width="20" height="20" patternUnits="userSpaceOnUse">
+      <path d="M 20 0 L 0 0 0 20" fill="none" stroke="#75B5DE" stroke-opacity="0.04"/>
+    </pattern>
+    <clipPath id="cardClipEmerald">
+      <rect width="580" height="84" rx="14"/>
+    </clipPath>
+  </defs>
+
+  <g clip-path="url(#cardClipEmerald)">
+    <rect width="580" height="84" fill="url(#bgEmerald)"/>
+    <rect width="580" height="84" fill="url(#gridEmerald)"/>
+    
+    <rect class="sheen-emerald" x="0" y="0" width="140" height="84" fill="url(#sheenGradEmerald)" transform="skewX(-20)"/>
+
+    <rect width="5" height="84" fill="url(#accentEmerald)"/>
+
+    <!-- Icon Box -->
+    <g transform="translate(20, 18)">
+      <rect width="48" height="48" rx="12" fill="#061D19" stroke="#34D399" stroke-opacity="0.4" stroke-width="1.2"/>
+      <g fill="none" stroke="#34D399" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+        <path d="M 14 17 L 24 17 M 14 24 L 20 24 M 14 31 L 28 31"/>
+        <circle cx="33" cy="24" r="5" fill="#34D399" fill-opacity="0.25"/>
+      </g>
+    </g>
+
+    <text x="82" y="34" fill="#34D399" font-family="Inter, -apple-system, BlinkMacSystemFont, sans-serif" font-size="10" font-weight="800" letter-spacing="2">LIVE INVARIANT DIFF · 94.2% PURGE</text>
+    <text x="82" y="58" fill="#F8FAFC" font-family="Inter, -apple-system, BlinkMacSystemFont, sans-serif" font-size="18" font-weight="900" letter-spacing="-0.2">TRY WEB SIMULATOR</text>
+
+    <!-- Right Action Pill -->
+    <g transform="translate(440, 24)">
+      <rect width="118" height="36" rx="9" fill="#08291F" stroke="#34D399" stroke-opacity="0.5" stroke-width="1.2"/>
+      <text x="48" y="23" text-anchor="middle" fill="#FFFFFF" font-family="Inter, -apple-system, BlinkMacSystemFont, sans-serif" font-size="11" font-weight="800" letter-spacing="0.5">LAUNCH</text>
+      <text x="98" y="23" text-anchor="middle" fill="#34D399" font-family="Arial, sans-serif" font-size="14" font-weight="900">➔</text>
+    </g>
+
+    <rect class="card-border-emerald" x="0.5" y="0.5" width="579" height="83" rx="13.5" fill="none" stroke="#34D399" stroke-width="1.2"/>
+  </g>
+</svg>

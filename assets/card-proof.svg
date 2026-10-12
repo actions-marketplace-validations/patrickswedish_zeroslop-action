@@ -1,0 +1,77 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="580" height="92" viewBox="0 0 580 92" role="img" aria-labelledby="t4 d4">
+  <title id="t4">View Upstream Wall of Proof</title>
+  <desc id="d4">Browse 16 verified merged upstream pull requests across Hugging Face, Meta, DuckDB, etc.</desc>
+  <defs>
+    <style>
+      .glow-purple { animation: borderPulsePurple 3s ease-in-out infinite; }
+      .laser-sweep-purple { animation: sweepPurple 6s ease-in-out infinite; }
+      @keyframes borderPulsePurple {
+        0%, 100% { stroke-opacity: 0.35; filter: drop-shadow(0 0 2px rgba(167, 139, 250, 0.25)); }
+        50% { stroke-opacity: 0.90; filter: drop-shadow(0 0 10px rgba(167, 139, 250, 0.75)); }
+      }
+      @keyframes sweepPurple {
+        0% { transform: translateX(-160px); opacity: 0; }
+        20% { opacity: 0.25; }
+        45%, 100% { transform: translateX(650px); opacity: 0; }
+      }
+      @media (prefers-reduced-motion: reduce) {
+        .glow-purple, .laser-sweep-purple { animation: none; }
+      }
+    </style>
+    <linearGradient id="bg4" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#040913"/>
+      <stop offset="0.5" stop-color="#101226"/>
+      <stop offset="1" stop-color="#1C1838"/>
+    </linearGradient>
+    <linearGradient id="purpleAccent4" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#818CF8"/>
+      <stop offset="1" stop-color="#A78BFA"/>
+    </linearGradient>
+    <linearGradient id="sheen4" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#FFFFFF" stop-opacity="0"/>
+      <stop offset="0.5" stop-color="#FFFFFF" stop-opacity="0.30"/>
+      <stop offset="1" stop-color="#FFFFFF" stop-opacity="0"/>
+    </linearGradient>
+    <pattern id="grid4" width="24" height="24" patternUnits="userSpaceOnUse">
+      <path d="M 24 0 L 0 0 0 24" fill="none" stroke="#75B5DE" stroke-opacity="0.04"/>
+    </pattern>
+    <clipPath id="clip4">
+      <rect width="580" height="92" rx="14"/>
+    </clipPath>
+  </defs>
+
+  <g clip-path="url(#clip4)">
+    <!-- Base Background & Grid -->
+    <rect width="580" height="92" fill="url(#bg4)"/>
+    <rect width="580" height="92" fill="url(#grid4)"/>
+    
+    <!-- Animated Laser Sheen -->
+    <rect class="laser-sweep-purple" x="0" y="0" width="130" height="92" fill="url(#sheen4)" transform="skewX(-20)"/>
+
+    <!-- Left Accent Pill -->
+    <rect width="5" height="92" fill="url(#purpleAccent4)"/>
+
+    <!-- Left Icon Squircle (52x52) -->
+    <g transform="translate(20, 20)">
+      <rect width="52" height="52" rx="13" fill="#1B1733" stroke="#A78BFA" stroke-opacity="0.4" stroke-width="1.2"/>
+      <g fill="none" stroke="#A78BFA" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+        <path d="M 26 15 L 29 20 L 35 21 L 31 25 L 32 31 L 26 28 L 20 31 L 21 25 L 17 21 L 23 20 Z"/>
+        <path d="M 23 26 L 25 28 L 29 23"/>
+      </g>
+    </g>
+
+    <!-- Typography (Wide Margin, Zero Collision) -->
+    <text x="92" y="38" fill="#A78BFA" font-family="Inter, -apple-system, BlinkMacSystemFont, sans-serif" font-size="10" font-weight="800" letter-spacing="1.8">16 TIER-1 SYSTEMS · 100% GREEN</text>
+    <text x="92" y="63" fill="#F8FAFC" font-family="Inter, -apple-system, BlinkMacSystemFont, sans-serif" font-size="16.5" font-weight="900" letter-spacing="-0.2">WALL OF PROOF</text>
+
+    <!-- Right Action Button Plate (415 to 555) -->
+    <g transform="translate(415, 24)">
+      <rect width="142" height="44" rx="10" fill="#241E45" stroke="#A78BFA" stroke-opacity="0.6" stroke-width="1.2"/>
+      <text x="56" y="27" text-anchor="middle" fill="#FFFFFF" font-family="Inter, -apple-system, BlinkMacSystemFont, sans-serif" font-size="11.5" font-weight="800" letter-spacing="0.5">EXPLORE</text>
+      <text x="116" y="28" text-anchor="middle" fill="#A78BFA" font-family="Arial, sans-serif" font-size="16" font-weight="900">↓</text>
+    </g>
+
+    <!-- Outer Animated Glow Border -->
+    <rect class="glow-purple" x="0.5" y="0.5" width="579" height="91" rx="13.5" fill="none" stroke="#A78BFA" stroke-width="1.2"/>
+  </g>
+</svg>

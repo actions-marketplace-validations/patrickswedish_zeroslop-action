@@ -1,0 +1,78 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="580" height="92" viewBox="0 0 580 92" role="img" aria-labelledby="t2 d2">
+  <title id="t2">Ribbsaeter Systems — Get Pro License</title>
+  <desc id="d2">Activate ZeroSlop Pro key with 14-Day Money-Back Guarantee.</desc>
+  <defs>
+    <style>
+      .glow-gold { animation: borderPulseGold 3s ease-in-out infinite; }
+      .laser-sweep-gold { animation: sweepGold 6s ease-in-out infinite; }
+      @keyframes borderPulseGold {
+        0%, 100% { stroke-opacity: 0.35; filter: drop-shadow(0 0 2px rgba(255, 184, 0, 0.25)); }
+        50% { stroke-opacity: 0.90; filter: drop-shadow(0 0 10px rgba(255, 184, 0, 0.75)); }
+      }
+      @keyframes sweepGold {
+        0% { transform: translateX(-160px); opacity: 0; }
+        20% { opacity: 0.25; }
+        45%, 100% { transform: translateX(650px); opacity: 0; }
+      }
+      @media (prefers-reduced-motion: reduce) {
+        .glow-gold, .laser-sweep-gold { animation: none; }
+      }
+    </style>
+    <linearGradient id="bg2" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#040913"/>
+      <stop offset="0.5" stop-color="#0F1724"/>
+      <stop offset="1" stop-color="#1B1E30"/>
+    </linearGradient>
+    <linearGradient id="goldAccent2" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#FFE066"/>
+      <stop offset="1" stop-color="#FFB800"/>
+    </linearGradient>
+    <linearGradient id="sheen2" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#FFFBE8" stop-opacity="0"/>
+      <stop offset="0.5" stop-color="#FFFBE8" stop-opacity="0.30"/>
+      <stop offset="1" stop-color="#FFFBE8" stop-opacity="0"/>
+    </linearGradient>
+    <pattern id="grid2" width="24" height="24" patternUnits="userSpaceOnUse">
+      <path d="M 24 0 L 0 0 0 24" fill="none" stroke="#75B5DE" stroke-opacity="0.04"/>
+    </pattern>
+    <clipPath id="clip2">
+      <rect width="580" height="92" rx="14"/>
+    </clipPath>
+  </defs>
+
+  <g clip-path="url(#clip2)">
+    <!-- Base Background & Grid -->
+    <rect width="580" height="92" fill="url(#bg2)"/>
+    <rect width="580" height="92" fill="url(#grid2)"/>
+    
+    <!-- Animated Laser Sheen -->
+    <rect class="laser-sweep-gold" x="0" y="0" width="130" height="92" fill="url(#sheen2)" transform="skewX(-20)"/>
+
+    <!-- Left Accent Pill -->
+    <rect width="5" height="92" fill="url(#goldAccent2)"/>
+
+    <!-- Left Icon Squircle (52x52) -->
+    <g transform="translate(20, 20)">
+      <rect width="52" height="52" rx="13" fill="#1C1810" stroke="#FFB800" stroke-opacity="0.4" stroke-width="1.2"/>
+      <g fill="none" stroke="#FFB800" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+        <rect x="16" y="22" width="20" height="17" rx="3.5"/>
+        <path d="M 20 22 L 20 17 A 6 6 0 0 1 32 17 L 32 22"/>
+        <circle cx="26" cy="30" r="2.2" fill="#FFB800"/>
+      </g>
+    </g>
+
+    <!-- Typography (Wide Margin, Zero Collision) -->
+    <text x="92" y="38" fill="#FFB800" font-family="Inter, -apple-system, BlinkMacSystemFont, sans-serif" font-size="10" font-weight="800" letter-spacing="1.8">RIBBSAETER SYSTEMS · PRO SEATS</text>
+    <text x="92" y="63" fill="#F8FAFC" font-family="Inter, -apple-system, BlinkMacSystemFont, sans-serif" font-size="16.5" font-weight="900" letter-spacing="-0.2">GET PRO LICENSE</text>
+
+    <!-- Right Action Button Plate (415 to 555) -->
+    <g transform="translate(415, 24)">
+      <rect width="142" height="44" rx="10" fill="#291E09" stroke="#FFB800" stroke-opacity="0.6" stroke-width="1.2"/>
+      <text x="56" y="27" text-anchor="middle" fill="#FFFFFF" font-family="Inter, -apple-system, BlinkMacSystemFont, sans-serif" font-size="11.5" font-weight="800" letter-spacing="0.5">$29 / MO</text>
+      <text x="116" y="28" text-anchor="middle" fill="#FFB800" font-family="Arial, sans-serif" font-size="16" font-weight="900">➔</text>
+    </g>
+
+    <!-- Outer Animated Glow Border -->
+    <rect class="glow-gold" x="0.5" y="0.5" width="579" height="91" rx="13.5" fill="none" stroke="#FFB800" stroke-width="1.2"/>
+  </g>
+</svg>
