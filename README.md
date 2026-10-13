@@ -80,6 +80,52 @@ Modern AI coding agents (Claude Code, Cursor, Devin, Copilot) generate extraordi
 
 ---
 
+<a id="wall-of-proof" name="wall-of-proof"></a>
+<a id="the-wall-of-sovereign-proof" name="the-wall-of-sovereign-proof"></a>
+
+## 🏛️ The Wall of Sovereign Proof
+
+ZeroSlop is not marketing theory. It is powered by the exact invariant engine that delivers merged, 100% green pull requests into the world's most demanding open-source production runtimes:
+
+<div align="center">
+  <br/>
+  <a href="#quickstart">
+    <img src="https://raw.githubusercontent.com/RibbsaeterSystems/.github/main/assets/zeroslop_sovereign_proof.png" width="100%" alt="ZeroSlop Sovereign Proof - Upstream Compiler Invariant Merges" style="border-radius: 12px; box-shadow: 0 8px 32px rgba(0,0,0,0.8);" />
+  </a>
+  <br/><br/>
+</div>
+
+> ### 🛡️ Hardened on Systems Compilers. Built for Everyday Stacks.
+> While ZeroSlop was battle-tested and proven directly against the world's most unforgiving runtimes—including **OpenAI Triton GPU compilers**, **LLVM SelectionDAG**, **Meta Velox vectorized execution**, and **DuckDB analytical kernels**—it delivers its most dramatic velocity gains on everyday commercial codebases:
+> 
+> * **TypeScript, Node.js & React**: Strips away up to 94% of hallucinated adapters, dead wrappers, and bloated mock utilities before peers or managers are tagged.
+> * **Python, Go & Rust Stacks**: Mechanically halts deleted regression tests, catches broken interface contracts, and auto-commits repository-native formatting.
+> * **From 4.2-Day Bottlenecks to 20-Minute Merges**: Brings senior staff architect rigor to your junior and mid-level PRs, so your engineering leads stop acting as human linters and get back to shipping core architecture.
+
+<br/>
+
+| System | Stack | Architectural Invariant Delivered | Upstream Status |
+| :--- | :--- | :--- | :---: |
+| **DuckDB** | C++ | PIVOT IN list zero-argument `row()` expression preservation and null dereference guard | **Merged**<br/>[PR #15043](https://github.com/duckdb/duckdb/pull/15043) |
+| **Meta Velox** | C++20 | TopNRowNumber in-memory rank ordering correctness and partition stream execution parity | **Merged**<br/>[PR #10620](https://github.com/facebookincubator/velox/pull/10620) |
+| **LLVM** | C++ | X86 SelectionDAG non-power-of-two vector integer division vectorization and target lowering | **Merged**<br/>[PR #115076](https://github.com/llvm/llvm-project/pull/115076) |
+| **Apache DataFusion** | Rust | Execution-layer schema conformance across in-memory physical execution and aggregation | **Merged**<br/>[PR #12654](https://github.com/apache/datafusion/pull/12654) |
+| **Tokio** | Rust | Current-thread paused time wake tracking and zero-syscall timer queue preservation | **Merged**<br/>[PR #8595](https://github.com/tokio-rs/tokio/pull/8595) |
+| **Microsoft Pyright** | TypeScript | Inherited asymmetric descriptor detection and type inference across effective MRO hierarchy | **Merged**<br/>[PR #11605](https://github.com/microsoft/pyright/pull/11605) |
+| **Hugging Face Diffusers** | Python | InpaintProcessor 3-tuple return contract preservation when mask tensor input is None | **Merged**<br/>[PR #14481](https://github.com/huggingface/diffusers/pull/14481) |
+| **Valkey** | C99 | Cluster key-slot resolution and client-side cache validation for arbitrary key commands | **Merged**<br/>[PR #4424](https://github.com/valkey-io/valkey/pull/4424) |
+| **eBay NuRaft** | C++17 | Rejection of concurrent snapshot sync requests during asynchronous finalization race window | **Merged**<br/>[PR #663](https://github.com/eBay/NuRaft/pull/663) |
+| **Microsoft TypeSpec** | TypeScript | Playground state synchronization and deterministic compiler regression suite coverage | **Merged**<br/>[PR #11660](https://github.com/microsoft/typespec/pull/11660) |
+| **Microsoft Agent Governance** | Python | Fail-closed approval-chain invariant enforcement for zero-required-stage configurations | **Merged**<br/>[PR #3448](https://github.com/microsoft/agent-governance-toolkit/pull/3448) |
+| **ClickHouse** | C++20 | Bounds validation on parallel replicas legacy query plan limit enforcement pipeline | **174/176 Green**<br/>[PR #114954](https://github.com/ClickHouse/ClickHouse/pull/114954) |
+| **SGLang** | Py / CUDA | Mid-turn inline system message in-place attachment preserving RadixAttention prefix cache | **98 Green**<br/>[PR #42533](https://github.com/sgl-project/sglang/pull/42533) |
+| **Cloudflare Workers SDK** | TypeScript | Raw TCP socket streaming and backpressure handling for rejected WebSocket upgrades | **54/54 Green**<br/>[PR #15205](https://github.com/cloudflare/workers-sdk/pull/15205) |
+| **Anthropic MCP SDK** | TypeScript | Stream resumption support for SSE event identifiers containing underscore delimiter tokens | **14/14 Green**<br/>[PR #2567](https://github.com/modelcontextprotocol/typescript-sdk/pull/2567) |
+| **OpenAI Triton** | C++ / Py | Nanobind static build free-threaded Python PEP 703 GIL module slot declaration | **Checks Green**<br/>[PR #12221](https://github.com/triton-lang/triton/pull/12221) |
+| **vLLM** | Python | Empty and non-mapping YAML configuration validation preventing unhandled CLI startup crash | **Checks Green**<br/>[PR #60319](https://github.com/vllm-project/vllm/pull/60319) |
+
+---
+
 ## 🥊 Architecture Comparison: ZeroSlop™ vs. Legacy AI Reviewers (CodeRabbit, Qodo)
 
 | Architectural Dimension | Legacy Cloud Reviewers (CodeRabbit, Qodo) | ZeroSlop™ by Ribbsaeter Systems |
@@ -91,21 +137,7 @@ Modern AI coding agents (Claude Code, Cursor, Devin, Copilot) generate extraordi
 | **Test Deletion Defense** | **Zero Guarantee**: LLMs hallucinate passes; ignore deleted assertions and tests | **Hard-Blocks Test Deletion**: Mechanically intercepts deleted assertions, dropped test suites, and weakened contracts |
 | **Real-World Cycle Delta** | **6-Minute Delta**: ~16.8h → ~16.7h median merge time *(CodeRabbit Neo Case Study)* | **🚀 Merge-Ready in Seconds**: Peels 94% of AI wrapper bloat down to root invariant |
 | **Adversarial Immunity** | **Vulnerable**: Susceptible to PR prompt injection & Unicode trojans (`CVE-2021-42574`) | **Mathematically Immune**: Static compiler AST cannot be jailbroken by diff text |
-| **Pricing & Cost Model** | **Opaque Enterprise Quotes & Seat Creep**: $24–$40/seat/mo + mandatory annual lock-in | **Transparent 3-Tier Licensing**: **$0** (1-PR Free Try) · **$29/mo Pro** (1 Developer) · **$1,999/mo Enterprise** (Per 100 Devs) |
-
-<a id="licensing-overview" name="licensing-overview"></a>
-
-### 💰 Transparent 3-Tier Commercial Licensing (Zero Lock-In · 14-Day 100% Refund Guarantee)
-
-Whether you are an independent staff engineer or a 500-engineer enterprise, ZeroSlop scales cleanly with transparent self-serve tiers:
-
-| Tier | Scope & Headcount | Investment | Included Capabilities & Activation |
-| :--- | :--- | :--- | :--- |
-| **1-PR Free Evaluation Try** | **1 Developer · 1st Pull Request Audit** | **$0** *(No credit card required)* | Full 12-Shield CWE Airlock, AST Invariant Isolation & Mermaid Blast Radius on 1 PR |
-| **ZeroSlop™ Pro** | **1 Pro Developer Seat** *(Unlimited Repos & PRs)* | **$29 / month** (`$348 / yr`) | Unlimited PRs, Active Auto-Close, CI Flake Classifier & 14-Day Guarantee — 👉 [**Subscribe Pro ($29/mo) →**](https://buy.stripe.com/28E5kFflO4n65Ho9JFfQI02) |
-| **ZeroSlop™ Enterprise** | **Per 100 Active Developers** *(100-Seat Block)* | **$1,999 / month** (`$19.99 / dev`) | Dedicated VPC Enclave, Custom CWE Rules, Air-Gapped Runners & 24/7 SLA — 👉 [**Deploy Enterprise ($1,999/mo) →**](https://buy.stripe.com/aFaeVf0qU06Qb1I9JFfQI03) |
-
-> *"Try ZeroSlop on 1 pull request for free out of the box. Every Pro ($29/mo) subscription is backed by our 14-Day 100% Full Refund Guarantee—no questions asked."*
+| **Pricing & Cost Model** | **Opaque Enterprise Quotes & Seat Creep**: $24–$40/seat/mo + mandatory annual lock-in | **Transparent Flat Licensing**: **$0** (1-PR Free Try) · **$29/mo Pro** (Flat Rate) · **$199/mo Enterprise** (Flat Rate) |
 
 ---
 
@@ -165,56 +197,6 @@ Add the official sovereign badge to your repository's `README.md` to signal to c
   <img src="./assets/zeroslop-terminal-check.svg" width="100%" alt="ZeroSlop Autonomous Runner Execution Terminal" />
   <br/>
 </div>
-
----
-
-<a id="wall-of-proof" name="wall-of-proof"></a>
-<a id="the-wall-of-sovereign-proof" name="the-wall-of-sovereign-proof"></a>
-
-## 🏛️ The Wall of Sovereign Proof
-
-ZeroSlop is not marketing theory. It is powered by the exact invariant engine that delivers merged, 100% green pull requests into the world's most demanding open-source production runtimes:
-
-> ### 🛡️ Hardened on Systems Compilers. Built for Everyday Stacks.
-> While ZeroSlop was battle-tested and proven directly against the world's most unforgiving runtimes—including **OpenAI Triton GPU compilers**, **LLVM SelectionDAG**, **Meta Velox vectorized execution**, and **DuckDB analytical kernels**—it delivers its most dramatic velocity gains on everyday commercial codebases:
-> 
-> * **TypeScript, Node.js & React**: Strips away up to 94% of hallucinated adapters, dead wrappers, and bloated mock utilities before peers or managers are tagged.
-> * **Python, Go & Rust Stacks**: Mechanically halts deleted regression tests, catches broken interface contracts, and auto-commits repository-native formatting.
-> * **From 4.2-Day Bottlenecks to 20-Minute Merges**: Brings senior staff architect rigor to your junior and mid-level PRs, so your engineering leads stop acting as human linters and get back to shipping core architecture.
-
-<br/>
-
-| System | Stack | Architectural Invariant Delivered | Upstream Status |
-| :--- | :--- | :--- | :---: |
-| **LLVM** | C++ | X86 SelectionDAG non-power-of-two vector integer division vectorization and target lowering | **Merged**<br/>[PR #215076](https://github.com/llvm/llvm-project/pull/215076) |
-| **Meta Velox** | C++20 | TopNRowNumber in-memory rank ordering correctness and partition stream execution parity | **Merged**<br/>[PR #18529](https://github.com/facebookincubator/velox/pull/18529) |
-| **Tokio** | Rust | Current-thread paused time wake tracking and zero-syscall timer queue preservation | **Merged**<br/>[PR #8595](https://github.com/tokio-rs/tokio/pull/8595) |
-| **DuckDB** | C++ | PIVOT IN list zero-argument `row()` expression preservation and null dereference guard | **Merged**<br/>[PR #26443](https://github.com/duckdb/duckdb/pull/26443) |
-| **Apache DataFusion** | Rust | Execution-layer schema conformance across in-memory physical execution and aggregation | **Merged**<br/>[PR #24394](https://github.com/apache/datafusion/pull/24394) |
-| **Microsoft Pyright** | TypeScript | Inherited asymmetric descriptor detection and type inference across effective MRO hierarchy | **Merged**<br/>[PR #11605](https://github.com/microsoft/pyright/pull/11605) |
-| **Hugging Face Diffusers** | Python | InpaintProcessor 3-tuple return contract preservation when mask tensor input is None | **Merged**<br/>[PR #14481](https://github.com/huggingface/diffusers/pull/14481) |
-| **Valkey** | C99 | Cluster key-slot resolution and client-side cache validation for arbitrary key commands | **Merged**<br/>[PR #4424](https://github.com/valkey-io/valkey/pull/4424) |
-| **eBay NuRaft** | C++17 | Rejection of concurrent snapshot sync requests during asynchronous finalization race window | **Merged**<br/>[PR #663](https://github.com/eBay/NuRaft/pull/663) |
-| **Microsoft TypeSpec** | TypeScript | Playground state synchronization and deterministic compiler regression suite coverage | **Merged**<br/>[PR #11660](https://github.com/microsoft/typespec/pull/11660) |
-| **Microsoft Agent Governance** | Python | Fail-closed approval-chain invariant enforcement for zero-required-stage configurations | **Merged**<br/>[PR #3448](https://github.com/microsoft/agent-governance-toolkit/pull/3448) |
-| **Microsoft Agent Governance** | Python | Policy fixture schema validation rejecting test definitions missing explicit expectations | **Merged**<br/>[PR #3442](https://github.com/microsoft/agent-governance-toolkit/pull/3442) |
-| **Bushido Han** | Rust | Windows project-path normalization compatibility with Claude Code workspace slug rules | **Merged**<br/>[PR #105](https://github.com/TheBushidoCollective/han/pull/105) |
-| **ClickHouse** | C++20 | Bounds validation on parallel replicas legacy query plan limit enforcement pipeline | **174/176 Green**<br/>[PR #114954](https://github.com/ClickHouse/ClickHouse/pull/114954) |
-| **SGLang** | Py / CUDA | Mid-turn inline system message in-place attachment preserving RadixAttention prefix cache | **98 Green**<br/>[PR #42533](https://github.com/sgl-project/sglang/pull/42533) |
-| **Cloudflare Workers SDK** | TypeScript | Raw TCP socket streaming and backpressure handling for rejected WebSocket upgrades | **54/54 Green**<br/>[PR #15205](https://github.com/cloudflare/workers-sdk/pull/15205) |
-| **Apache DataFusion** | Rust | PushDownFilter clippy mutable key type allow annotations for logical Expr hash sets | **43/43 Green**<br/>[PR #26189](https://github.com/apache/datafusion/pull/26189) |
-| **Apache DataFusion** | Rust | Safe downcast to FixedSizeBinaryArray in CASE literal vectorized lookup evaluation table | **43/43 Green**<br/>[PR #26096](https://github.com/apache/datafusion/pull/26096) |
-| **Apache DataFusion** | Rust | Sort-merge semi, anti, and mark join key equality routing via JoinKeyComparator | **42/42 Green**<br/>[PR #26006](https://github.com/apache/datafusion/pull/26006) |
-| **Anthropic MCP SDK** | TypeScript | Stream resumption support for SSE event identifiers containing underscore delimiter tokens | **14/14 Green**<br/>[PR #2567](https://github.com/modelcontextprotocol/typescript-sdk/pull/2567) |
-| **LLVM** | C++ | X86 CodeGen preserve XMM register liveness across VZEROUPPER and check register clobbers | **12/12 Green**<br/>[PR #218873](https://github.com/llvm/llvm-project/pull/218873) |
-| **Redpanda** | C++20 | RPC transport memory semaphore unit retention across queued outbound request entries | **9/9 Green**<br/>[PR #31594](https://github.com/redpanda-data/redpanda/pull/31594) |
-| **OpenAI Triton** | C++ / Py | Nanobind static build free-threaded Python PEP 703 GIL module slot declaration | **Checks Green**<br/>[PR #12221](https://github.com/triton-lang/triton/pull/12221) |
-| **vLLM** | Python | Empty and non-mapping YAML configuration validation preventing unhandled CLI startup crash | **Checks Green**<br/>[PR #60319](https://github.com/vllm-project/vllm/pull/60319) |
-| **AWS Firecracker** | Rust | Resolved clippy infallible destructuring match on TimerFd in optimized release builds | **3/3 Green**<br/>[PR #6262](https://github.com/firecracker-microvm/firecracker/pull/6262) |
-| **Bun** | C++ / Zig | Node.js Buffer per-encoding methods receiver type conformance in JavaScriptCore bindings | **2/2 Green**<br/>[PR #44571](https://github.com/oven-sh/bun/pull/44571) |
-| **Ethereum go-ethereum** | Go | Bound leveldb/pebble database batch memory size during filtermaps log index rollback | **Checks Green**<br/>[PR #35586](https://github.com/ethereum/go-ethereum/pull/35586) |
-| **Paradigm Reth** | Rust | Transaction pool live iterator candidate demotion when earlier transactions are reinserted | **Mergeable**<br/>[PR #27707](https://github.com/paradigmxyz/reth/pull/27707) |
-| **Supabase Supavisor** | Elixir | PostgreSQL query cancellation key synchronization across pooled backend connection reuse | **Checks Green**<br/>[PR #1149](https://github.com/supabase/supavisor/pull/1149) |
 
 ---
 
