@@ -60,16 +60,8 @@
       </g>
     </g>
 
-    <!-- Typography (Wide Margin, Zero Collision) -->
-    <text x="92" y="38" fill="#A78BFA" font-family="Inter, -apple-system, BlinkMacSystemFont, sans-serif" font-size="10" font-weight="800" letter-spacing="1.8">16 TIER-1 SYSTEMS · 100% GREEN</text>
-    <text x="92" y="63" fill="#F8FAFC" font-family="Inter, -apple-system, BlinkMacSystemFont, sans-serif" font-size="16.5" font-weight="900" letter-spacing="-0.2">WALL OF PROOF</text>
-
-    <!-- Right Action Button Plate (415 to 555) -->
-    <g transform="translate(415, 24)">
-      <rect width="142" height="44" rx="10" fill="#241E45" stroke="#A78BFA" stroke-opacity="0.6" stroke-width="1.2"/>
-      <text x="56" y="27" text-anchor="middle" fill="#FFFFFF" font-family="Inter, -apple-system, BlinkMacSystemFont, sans-serif" font-size="11.5" font-weight="800" letter-spacing="0.5">EXPLORE</text>
-      <text x="116" y="28" text-anchor="middle" fill="#A78BFA" font-family="Arial, sans-serif" font-size="16" font-weight="900">↓</text>
-    </g>
+    <!-- Typography — Sovereign Title Only -->
+    <text x="92" y="53" fill="#F8FAFC" font-family="Inter, -apple-system, BlinkMacSystemFont, sans-serif" font-size="20" font-weight="900" letter-spacing="-0.3">WALL OF PROOF</text>
 
     <!-- Outer Animated Glow Border -->
     <rect class="glow-purple" x="0.5" y="0.5" width="579" height="91" rx="13.5" fill="none" stroke="#A78BFA" stroke-width="1.2"/>

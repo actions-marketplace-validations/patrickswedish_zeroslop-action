@@ -43,7 +43,7 @@ inputs:
     required: false
     default: 'true'
   auto_close_slop:
-    description: 'Automatically close Pull Requests that fail with severe AI slop (>=60%) or CRITICAL CWE vulnerabilities (Pro/Enterprise)'
+    description: 'Automatically close Pull Requests that fail with severe AI slop or CRITICAL CWE vulnerabilities (Pro/Enterprise)'
     required: false
     default: 'false'
 

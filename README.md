@@ -8,22 +8,20 @@
 
 <br/><br/>
 
-<a href="https://github.com/marketplace/actions/zeroslop-by-ribbsaeter-systems">
-  <img src="./assets/card-install.svg" width="49%" alt="GitHub Marketplace — Install Action Now" />
-</a>
+<img src="./assets/card-install.svg" width="49%" alt="Install Action Now" />
 &nbsp;
-<a href="https://ribbsaetersystems.com/zeroslop">
-  <img src="./assets/card-license.svg" width="49%" alt="Ribbsaeter Systems — Get Pro License" />
+<a href="#choose-your-package">
+  <img src="./assets/card-license.svg" width="49%" alt="Get Pro License — Choose Package &amp; Subscribe" />
 </a>
 
 <br/><br/>
 
 <a href="https://ribbsaetersystems.com/zeroslop">
-  <img src="./assets/card-simulator.svg" width="49%" alt="Try Interactive Diff Simulator" />
+  <img src="./assets/card-simulator.svg" width="49%" alt="Try Interactive Diff Simulator on Ribbsaeter Systems" />
 </a>
 &nbsp;
-<a href="#-the-wall-of-sovereign-proof">
-  <img src="./assets/card-proof.svg" width="49%" alt="Upstream Wall of Proof" />
+<a href="#wall-of-proof">
+  <img src="./assets/card-proof.svg" width="49%" alt="The Wall of Sovereign Proof" />
 </a>
 
 <br/><br/>
@@ -72,7 +70,7 @@ Modern AI coding agents (Claude Code, Cursor, Devin, Copilot) generate extraordi
 
 ### How The Sovereign Engine Operates:
 
-1. **AST Invariant Isolation**: Parses incoming PR diffs to locate the single root-cause invariant, systematically peeling away up to **94% of hallucinated wrappers and defensive AI bloat**.
+1. **Autonomous Slop Reduction**: Surgically isolates root invariants, eliminating up to **94% of hallucinated wrappers and defensive AI bloat** before human review.
 2. **12-Shield Deterministic CWE Security Airlock**: Mechanically intercepts high-risk AI-generated security vulnerabilities before human review—blocking SQL/vector injection (`CWE-89`), seeded/hardcoded credentials & plaintext auth (`CWE-798`/`CWE-256`), unbound caller identity / IDOR (`CWE-639`), command/code injection (`CWE-78`/`CWE-94`), unsafe deserialization (`CWE-502`), SSRF (`CWE-918`), silent error masking (`CWE-390`), CI workflow "Pwn Requests" (`CWE-426`), AI package "Slopsquatting" (`CWE-829`), and unbounded loop/timer resource exhaustion (`CWE-400`).
 3. **Zero-Click Cross-Layer Blast Radius & Mermaid Dependency Graph**: Maps architectural impact across `API Entrypoints ➔ Auth Boundaries ➔ AI Pipelines ➔ Persistence/Vector Sinks` with an embedded Mermaid diagram directly inside the native GitHub PR summary and a **Single Self-Updating PR Verdict Card**—eliminating bloated external SaaS dashboards and click-heavy review tools.
 4. **Prompt-Injection & Trojan-Source Immunity (`CVE-2021-42574`)**: Unlike conversational LLM review bots that can be jailbroken by adversarial instructions hidden inside PR diffs, ZeroSlop's deterministic airlock is mathematically immune to prompt injection and actively blocks bidirectional Unicode attacks.
@@ -88,20 +86,22 @@ Modern AI coding agents (Claude Code, Cursor, Devin, Copilot) generate extraordi
 | **Execution Latency** | **Minutes to Hours**: Network hops, cloud queuing, and LLM token generation | **⚡ 3.8 Seconds**: Deterministic static compilation & AST invariant evaluation |
 | **Data Privacy & Compliance** | **High Exposure**: Customer code leaves private VPC to third-party cloud SaaS | **🔒 Zero Data Retention**: Exactly 0 bytes leave runner (Swiss Privacy Standard) |
 | **PR Developer Experience** | **15–30 Chatty Comments**: Noise fatigue, opinionated bot arguments on code lines | **The Silent Airlock**: Single self-updating PR verdict card; zero comment spam |
-| **Test Deletion Defense** | **Zero Guarantee**: LLMs hallucinate passes; ignore deleted assertions and tests | **Hard-Blocks Test Deletion**: Mechanically enforces `net_assertion_delta >= 0` |
+| **Test Deletion Defense** | **Zero Guarantee**: LLMs hallucinate passes; ignore deleted assertions and tests | **Hard-Blocks Test Deletion**: Mechanically intercepts deleted assertions, dropped test suites, and weakened contracts |
 | **Real-World Cycle Delta** | **6-Minute Delta**: ~16.8h → ~16.7h median merge time *(CodeRabbit Neo Case Study)* | **🚀 Merge-Ready in Seconds**: Peels 94% of AI wrapper bloat down to root invariant |
 | **Adversarial Immunity** | **Vulnerable**: Susceptible to PR prompt injection & Unicode trojans (`CVE-2021-42574`) | **Mathematically Immune**: Static compiler AST cannot be jailbroken by diff text |
 | **Pricing & Cost Model** | **Opaque Enterprise Quotes & Seat Creep**: $24–$40/seat/mo + mandatory annual lock-in | **Transparent 3-Tier Licensing**: **$0** (1-PR Free Try) · **$29/mo Pro** (1 Developer) · **$1,999/mo Enterprise** (Per 100 Devs) |
+
+<a id="licensing-overview" name="licensing-overview"></a>
 
 ### 💰 Transparent 3-Tier Commercial Licensing (Zero Lock-In · 14-Day 100% Refund Guarantee)
 
 Whether you are an independent staff engineer or a 500-engineer enterprise, ZeroSlop scales cleanly with transparent self-serve tiers:
 
-| Tier | Scope & Headcount | Investment | Included Capabilities |
+| Tier | Scope & Headcount | Investment | Included Capabilities & Activation |
 | :--- | :--- | :--- | :--- |
 | **1-PR Free Evaluation Try** | **1 Developer · 1st Pull Request Audit** | **$0** *(No credit card required)* | Full 12-Shield CWE Airlock, AST Invariant Isolation & Mermaid Blast Radius on 1 PR |
-| **ZeroSlop™ Pro** | **1 Pro Developer Seat** *(Unlimited Repos & PRs)* | **$29 / month** (`$348 / yr`) | Unlimited PRs, Active Auto-Close, CI Flake Classifier & 14-Day 100% Refund Guarantee |
-| **ZeroSlop™ Enterprise** | **Per 100 Active Developers** *(100-Seat Block)* | **$1,999 / month** (`$19.99 / dev`) | Dedicated VPC Enclave, Custom CWE & Wire Rules, Air-Gapped Runners & 24/7 SLA |
+| **ZeroSlop™ Pro** | **1 Pro Developer Seat** *(Unlimited Repos & PRs)* | **$29 / month** (`$348 / yr`) | Unlimited PRs, Active Auto-Close, CI Flake Classifier & 14-Day Guarantee — 👉 [**Subscribe Pro ($29/mo) →**](https://buy.stripe.com/28E5kFflO4n65Ho9JFfQI02) |
+| **ZeroSlop™ Enterprise** | **Per 100 Active Developers** *(100-Seat Block)* | **$1,999 / month** (`$19.99 / dev`) | Dedicated VPC Enclave, Custom CWE Rules, Air-Gapped Runners & 24/7 SLA — 👉 [**Deploy Enterprise ($1,999/mo) →**](https://buy.stripe.com/aFaeVf0qU06Qb1I9JFfQI03) |
 
 > *"Try ZeroSlop on 1 pull request for free out of the box. Every Pro ($29/mo) subscription is backed by our 14-Day 100% Full Refund Guarantee—no questions asked."*
 
@@ -163,6 +163,9 @@ Add the official sovereign badge to your repository's `README.md` to signal to c
 
 ---
 
+<a id="wall-of-proof" name="wall-of-proof"></a>
+<a id="the-wall-of-sovereign-proof" name="the-wall-of-sovereign-proof"></a>
+
 ## 🏛️ The Wall of Sovereign Proof
 
 ZeroSlop is not marketing theory. It is powered by the exact invariant engine that delivers merged, 100% green pull requests into the world's most demanding open-source production runtimes:
@@ -218,7 +221,7 @@ ZeroSlop is not marketing theory. It is powered by the exact invariant engine th
 | :--- | :--- | :--- |
 | **`api_key`** | `''` *(1st PR Free)* | ZeroSlop Pro or Enterprise License Key (`RST_LIVE_...` or `zs_live_...`). Optional for 1st PR Free Try; required from PR #2+. |
 | **`post_pr_comment`** | `'true'` | Maintain a single self-updating Sovereign Verdict Card comment in the PR timeline with an embedded Mermaid Blast Radius graph. |
-| **`auto_close_slop`** | `'false'` | Automatically close Pull Requests failing with severe AI slop (`>=60%`) or CRITICAL CWE security vulnerabilities (Pro/Enterprise). |
+| **`auto_close_slop`** | `'false'` | Automatically close Pull Requests failing with severe AI slop or CRITICAL security vulnerabilities (Pro/Enterprise). |
 | **`ci_diagnostics`** | `'false'` | Enable Pro CI Flake Classifier isolating contributor green code from maintainer triage gates and upstream runner infrastructure flakes. |
 | **`base_branch`** | `'main'` | Base branch to compare incoming pull request diffs against during pre-flight AST invariant and 12-Shield CWE security evaluation. |
 | **`auto_polish`** | `'true'` | Automatically execute repository-native linters and verify compiler and formatting hygiene inside the ephemeral runner enclave. |
@@ -230,7 +233,7 @@ ZeroSlop is not marketing theory. It is powered by the exact invariant engine th
 
 | Output | Type | Description & Telemetry Value |
 | :--- | :--- | :--- |
-| **`slop_score`** | `number` | Calculated AI slop ratio percentage (`0%` = clean surgical invariant, `100%` = pure hallucinated AI bloat). |
+| **`slop_score`** | `number` | Evaluated AI slop ratio percentage score for the incoming pull request. |
 | **`lines_reduced`** | `string` | Total percentage of bloated, hallucinated wrapper lines stripped from the incoming pull request diff. |
 | **`invariants_verified`** | `string` | Percentage of core architectural invariants and test contracts verified green at the pre-flight airlock gate. |
 | **`security_findings_count`** | `number` | Total deterministic CWE security vulnerabilities intercepted across the 12-Shield CWE matrix (`CWE-89`, `CWE-798`, `CWE-639`, etc.). |
@@ -298,7 +301,17 @@ AI coding agents (Cursor, Copilot, Claude Code) increased commit volume by 300%,
 
 ---
 
-## 💼 Commercial Licensing & Pricing (100% Self-Serve)
+<a id="choose-your-package" name="choose-your-package"></a>
+<a id="commercial-licensing" name="commercial-licensing"></a>
+<a id="pricing" name="pricing"></a>
+
+## 💼 Choose Your Package & Subscribe (Commercial Licensing & Pricing)
+
+> ### ⚡ Instant Pro Activation ($29 / month)
+> **Choose your subscription package below. Direct self-serve activation via Stripe with instant license key delivery in under 60 seconds:**
+> 
+> 👉 [**Subscribe to ZeroSlop™ Pro ($29 / month) via Stripe Checkout →**](https://buy.stripe.com/28E5kFflO4n65Ho9JFfQI02)  
+> *Unlimited PR audits · All repositories · Single In-Place PR Card · 14-Day 100% Full Refund Guarantee*
 
 | Tier & Investment | Scope & Concurrency | Capabilities Included & Instant Activation |
 | :--- | :--- | :--- |
@@ -369,6 +382,10 @@ Direct founder and senior engineering support is available via [**contact@ribbsa
 <div align="center">
 
 <img src="./assets/zeroslop-closing-banner.svg" width="100%" alt="Surgical Invariants · Zero Regressions" />
+
+<br/><br/>
+
+[![Marketplace Page Visitors](https://api.visitorbadge.io/api/visitors?path=patrickswedish.zeroslop-action&label=PAGE+VISITORS&labelColor=%230a101d&countColor=%2300d2ff&style=flat-square)](https://github.com/marketplace/actions/zeroslop-by-ribbsaeter-systems)
 
 <br/><br/>
 
