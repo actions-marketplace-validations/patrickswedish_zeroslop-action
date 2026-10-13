@@ -1,5 +1,5 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1200" height="296" viewBox="0 0 1200 296" role="img" aria-labelledby="trustTitle trustDesc">
-  <title id="trustTitle">Verified Architectural PRs Merged Upstream Across 16 Tier-1 Foundations &amp; Systems</title>
+  <title id="trustTitle">Verified Architectural PRs Merged Upstream Across 17 Tier-1 Foundations &amp; Systems</title>
   <desc id="trustDesc">Symmetrical 8x2 institutional trust logos with paired upper and lower rows matching ribbsaetersystems.com brand identity.</desc>
   <defs>
     <style>
@@ -36,7 +36,7 @@
     <ellipse class="ambient-pulse" cx="600" cy="208" rx="480" ry="45" fill="#2F81F7" filter="url(#subtleGlow)"/>
 
     <!-- Top Headline -->
-    <text x="600" y="38" text-anchor="middle" fill="#769CBE" font-family="Consolas, 'SF Mono', monospace" font-size="11" font-weight="700" letter-spacing="3.5">VERIFIED ARCHITECTURAL PRS MERGED UPSTREAM ACROSS 16 TIER-1 FOUNDATIONS &amp; SYSTEMS</text>
+    <text x="600" y="38" text-anchor="middle" fill="#769CBE" font-family="Consolas, 'SF Mono', monospace" font-size="11" font-weight="700" letter-spacing="3.5">VERIFIED ARCHITECTURAL PRS MERGED UPSTREAM ACROSS 17 TIER-1 FOUNDATIONS &amp; SYSTEMS</text>
 
     <!-- Upper Row (8 Tier-1 Logos) -->
     

@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="580" height="84" viewBox="0 0 580 84" role="img" aria-labelledby="title desc">
   <title id="title">View Upstream Wall of Proof</title>
-  <desc id="desc">Browse 16 verified merged upstream pull requests across Hugging Face, Meta, DuckDB, etc.</desc>
+  <desc id="desc">Browse 17 verified merged upstream pull requests across Hugging Face, Meta, DuckDB, Tokio, etc.</desc>
   <defs>
     <style>
       .card-border-purple { animation: pulseGlowPurple 3s ease-in-out infinite; }
@@ -57,7 +57,7 @@
       </g>
     </g>
 
-    <text x="82" y="34" fill="#A78BFA" font-family="Inter, -apple-system, BlinkMacSystemFont, sans-serif" font-size="10" font-weight="800" letter-spacing="2">16 TIER-1 SYSTEMS · 100% GREEN MERGES</text>
+    <text x="82" y="34" fill="#A78BFA" font-family="Inter, -apple-system, BlinkMacSystemFont, sans-serif" font-size="10" font-weight="800" letter-spacing="2">17 TIER-1 SYSTEMS · 100% GREEN MERGES</text>
     <text x="82" y="58" fill="#F8FAFC" font-family="Inter, -apple-system, BlinkMacSystemFont, sans-serif" font-size="18" font-weight="900" letter-spacing="-0.2">WALL OF PROOF</text>
 
     <!-- Right Action Pill -->

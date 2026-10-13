@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="580" height="92" viewBox="0 0 580 92" role="img" aria-labelledby="t4 d4">
   <title id="t4">View Upstream Wall of Proof</title>
-  <desc id="d4">Browse 16 verified merged upstream pull requests across Hugging Face, Meta, DuckDB, etc.</desc>
+  <desc id="d4">Browse 17 verified merged upstream pull requests across Hugging Face, Meta, DuckDB, Tokio, etc.</desc>
   <defs>
     <style>
       .glow-purple { animation: borderPulsePurple 3s ease-in-out infinite; }

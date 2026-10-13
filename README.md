@@ -28,7 +28,7 @@
 
 <br/><br/>
 
-<img src="./assets/zeroslop-trust-banner.svg" width="100%" alt="Verified Architectural PRs Merged Upstream Across 16 Tier-1 Foundations &amp; Systems" />
+<img src="./assets/zeroslop-trust-banner.svg" width="100%" alt="Verified Architectural PRs Merged Upstream Across 17 Tier-1 Foundations &amp; Systems" />
 
 <br/><br/>
 
@@ -188,6 +188,7 @@ ZeroSlop is not marketing theory. It is powered by the exact invariant engine th
 | :--- | :--- | :--- | :---: |
 | **LLVM** | C++ | X86 SelectionDAG non-power-of-two vector integer division vectorization and target lowering | **Merged**<br/>[PR #215076](https://github.com/llvm/llvm-project/pull/215076) |
 | **Meta Velox** | C++20 | TopNRowNumber in-memory rank ordering correctness and partition stream execution parity | **Merged**<br/>[PR #18529](https://github.com/facebookincubator/velox/pull/18529) |
+| **Tokio** | Rust | Current-thread paused time wake tracking and zero-syscall timer queue preservation | **Merged**<br/>[PR #8595](https://github.com/tokio-rs/tokio/pull/8595) |
 | **DuckDB** | C++ | PIVOT IN list zero-argument `row()` expression preservation and null dereference guard | **Merged**<br/>[PR #26443](https://github.com/duckdb/duckdb/pull/26443) |
 | **Apache DataFusion** | Rust | Execution-layer schema conformance across in-memory physical execution and aggregation | **Merged**<br/>[PR #24394](https://github.com/apache/datafusion/pull/24394) |
 | **Microsoft Pyright** | TypeScript | Inherited asymmetric descriptor detection and type inference across effective MRO hierarchy | **Merged**<br/>[PR #11605](https://github.com/microsoft/pyright/pull/11605) |
@@ -198,7 +199,6 @@ ZeroSlop is not marketing theory. It is powered by the exact invariant engine th
 | **Microsoft Agent Governance** | Python | Fail-closed approval-chain invariant enforcement for zero-required-stage configurations | **Merged**<br/>[PR #3448](https://github.com/microsoft/agent-governance-toolkit/pull/3448) |
 | **Microsoft Agent Governance** | Python | Policy fixture schema validation rejecting test definitions missing explicit expectations | **Merged**<br/>[PR #3442](https://github.com/microsoft/agent-governance-toolkit/pull/3442) |
 | **Bushido Han** | Rust | Windows project-path normalization compatibility with Claude Code workspace slug rules | **Merged**<br/>[PR #105](https://github.com/TheBushidoCollective/han/pull/105) |
-| **Tokio** | Rust | Current-thread paused time wake tracking and zero-syscall timer queue preservation | **110/110 Green**<br/>[PR #8595](https://github.com/tokio-rs/tokio/pull/8595) |
 | **ClickHouse** | C++20 | Bounds validation on parallel replicas legacy query plan limit enforcement pipeline | **174/176 Green**<br/>[PR #114954](https://github.com/ClickHouse/ClickHouse/pull/114954) |
 | **SGLang** | Py / CUDA | Mid-turn inline system message in-place attachment preserving RadixAttention prefix cache | **98 Green**<br/>[PR #42533](https://github.com/sgl-project/sglang/pull/42533) |
 | **Cloudflare Workers SDK** | TypeScript | Raw TCP socket streaming and backpressure handling for rejected WebSocket upgrades | **54/54 Green**<br/>[PR #15205](https://github.com/cloudflare/workers-sdk/pull/15205) |
