@@ -8,7 +8,9 @@
 
 <br/><br/>
 
-<img src="./assets/card-install.svg" width="49%" alt="Install Action Now" />
+<a href="#quickstart">
+  <img src="./assets/card-install.svg" width="49%" alt="Don't Wait, Start Today — 60-Second Quickstart" />
+</a>
 &nbsp;
 <a href="#choose-your-package">
   <img src="./assets/card-license.svg" width="49%" alt="Get Pro License — Choose Package &amp; Subscribe" />
@@ -107,7 +109,10 @@ Whether you are an independent staff engineer or a 500-engineer enterprise, Zero
 
 ---
 
+<a id="quickstart"></a>
 ## 🚀 60-Second Quickstart (1-PR Free Evaluation Try + Instant Pro Key)
+
+> 💡 **Quick Install**: Click the green **"Use latest version"** button at the top-right corner of this Marketplace page, or copy the 60-second workflow below directly into your repository at `.github/workflows/zeroslop.yml`:
 
 Download and test ZeroSlop on **1 pull request for free** out of the box, or pass your **`ZEROSLOP_API_KEY`** for continuous unlimited protection. Add this workflow file to your repository at `.github/workflows/zeroslop.yml`:
 

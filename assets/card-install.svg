@@ -61,7 +61,7 @@
     </g>
 
     <!-- Typography — Sovereign Title Only -->
-    <text x="92" y="53" fill="#F8FAFC" font-family="Inter, -apple-system, BlinkMacSystemFont, sans-serif" font-size="20" font-weight="900" letter-spacing="-0.3">INSTALL ACTION NOW</text>
+    <text x="92" y="53" fill="#F8FAFC" font-family="Inter, -apple-system, BlinkMacSystemFont, sans-serif" font-size="20" font-weight="900" letter-spacing="-0.3">DON&apos;T WAIT, START TODAY</text>
 
     <!-- Outer Animated Glow Border -->
     <rect class="glow-stroke" x="0.5" y="0.5" width="579" height="91" rx="13.5" fill="none" stroke="#00D2FF" stroke-width="1.2"/>
