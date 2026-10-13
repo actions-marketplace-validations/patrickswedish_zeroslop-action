@@ -385,7 +385,7 @@ Direct founder and senior engineering support is available via [**contact@ribbsa
 
 <br/><br/>
 
-[![Marketplace Page Visitors](https://api.visitorbadge.io/api/visitors?path=patrickswedish.zeroslop-action&label=PAGE+VISITORS&labelColor=%230a101d&countColor=%2300d2ff&style=flat-square)](https://github.com/marketplace/actions/zeroslop-by-ribbsaeter-systems)
+[![ZeroSlop Marketplace Visitors](https://api.visitorbadge.io/api/visitors?path=patrickswedish.zeroslop-action&label=ZEROSLOP+VISITORS&labelColor=%23040913&countColor=%2300d2ff&style=flat-square)](https://github.com/marketplace/actions/zeroslop-by-ribbsaeter-systems)
 
 <br/><br/>
 
