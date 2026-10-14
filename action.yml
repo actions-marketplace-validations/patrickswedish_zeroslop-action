@@ -46,6 +46,10 @@ inputs:
     description: 'Automatically close Pull Requests that fail with severe AI slop or CRITICAL CWE vulnerabilities (Pro/Enterprise)'
     required: false
     default: 'false'
+  telemetry:
+    description: 'Anonymous, zero-PII diagnostic telemetry to improve invariant accuracy (default: true)'
+    required: false
+    default: 'true'
 
 outputs:
   slop_score:
