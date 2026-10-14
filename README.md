@@ -110,10 +110,10 @@ ZeroSlop is not marketing theory. It is powered by the exact invariant engine th
 
 | System | Stack | Architectural Invariant Delivered | Upstream Status |
 | :--- | :--- | :--- | :---: |
-| **DuckDB** | C++ | PIVOT IN list zero-argument `row()` expression preservation and null dereference guard | **Merged**<br/>[PR #15043](https://github.com/duckdb/duckdb/pull/15043) |
-| **Meta Velox** | C++20 | TopNRowNumber in-memory rank ordering correctness and partition stream execution parity | **Merged**<br/>[PR #10620](https://github.com/facebookincubator/velox/pull/10620) |
-| **LLVM** | C++ | X86 SelectionDAG non-power-of-two vector integer division vectorization and target lowering | **Merged**<br/>[PR #115076](https://github.com/llvm/llvm-project/pull/115076) |
-| **Apache DataFusion** | Rust | Execution-layer schema conformance across in-memory physical execution and aggregation | **Merged**<br/>[PR #12654](https://github.com/apache/datafusion/pull/12654) |
+| **DuckDB** | C++ | PIVOT IN list zero-argument `row()` expression preservation and null dereference guard | **Merged**<br/>[PR #26443](https://github.com/duckdb/duckdb/pull/26443) |
+| **Meta Velox** | C++20 | TopNRowNumber in-memory rank ordering correctness and partition stream execution parity | **Merged**<br/>[PR #18529](https://github.com/facebookincubator/velox/pull/18529) |
+| **LLVM** | C++ | X86 SelectionDAG non-power-of-two vector integer division vectorization and target lowering | **Merged**<br/>[PR #215076](https://github.com/llvm/llvm-project/pull/215076) |
+| **Apache DataFusion** | Rust | Execution-layer schema conformance across in-memory physical execution and aggregation | **Merged**<br/>[PR #24394](https://github.com/apache/datafusion/pull/24394) |
 | **Tokio** | Rust | Current-thread paused time wake tracking and zero-syscall timer queue preservation | **Merged**<br/>[PR #8595](https://github.com/tokio-rs/tokio/pull/8595) |
 | **Microsoft Pyright** | TypeScript | Inherited asymmetric descriptor detection and type inference across effective MRO hierarchy | **Merged**<br/>[PR #11605](https://github.com/microsoft/pyright/pull/11605) |
 | **Hugging Face Diffusers** | Python | InpaintProcessor 3-tuple return contract preservation when mask tensor input is None | **Merged**<br/>[PR #14481](https://github.com/huggingface/diffusers/pull/14481) |
