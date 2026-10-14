@@ -31,12 +31,12 @@
     <rect width="1200" height="296" fill="url(#bg)"/>
     <rect width="1200" height="296" fill="url(#grid)"/>
 
-    <!-- Subtle Cyan Ambient Auras Behind Rows -->
-    <ellipse class="ambient-pulse" cx="600" cy="102" rx="480" ry="45" fill="#00D2FF" filter="url(#subtleGlow)"/>
-    <ellipse class="ambient-pulse" cx="600" cy="208" rx="480" ry="45" fill="#2F81F7" filter="url(#subtleGlow)"/>
+    <!-- Subtle Swiss Red & Gold Ambient Auras Behind Rows -->
+    <ellipse class="ambient-pulse" cx="600" cy="102" rx="480" ry="45" fill="#E33126" filter="url(#subtleGlow)"/>
+    <ellipse class="ambient-pulse" cx="600" cy="208" rx="480" ry="45" fill="#B9A06D" filter="url(#subtleGlow)"/>
 
     <!-- Top Headline -->
-    <text x="600" y="38" text-anchor="middle" fill="#769CBE" font-family="Consolas, 'SF Mono', monospace" font-size="11" font-weight="700" letter-spacing="3.5">VERIFIED ARCHITECTURAL PRS MERGED UPSTREAM ACROSS 17 TIER-1 FOUNDATIONS &amp; SYSTEMS</text>
+    <text x="600" y="38" text-anchor="middle" fill="#B9A06D" font-family="Consolas, 'SF Mono', monospace" font-size="11" font-weight="700" letter-spacing="3.5">VERIFIED ARCHITECTURAL PRS MERGED UPSTREAM ACROSS 17 TIER-1 FOUNDATIONS &amp; SYSTEMS</text>
 
     <!-- Upper Row (8 Tier-1 Logos) -->
     

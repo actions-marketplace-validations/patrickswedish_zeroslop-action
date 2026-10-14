@@ -1,8 +1,19 @@
 <div align="center">
 
-<img src="./assets/zeroslop-header.svg" width="100%" alt="ZeroSlop™ by Ribbsaeter Systems — Autonomous CI Pull Request Invariant Gatekeeper &amp; Diff Minimization Engine on GitHub Marketplace" />
+<img src="./assets/ribbsaeter_systems_hero.png" width="100%" alt="Ribbsaeter Systems — Builds Serious Systems" />
 
-<br/><br/>
+<br/>
+
+<p align="center">
+  <code>ZURICH · AMSTERDAM · EINDHOVEN</code> &nbsp;◆&nbsp;
+  <a href="https://github.com/marketplace/actions/zeroslop-by-ribbsaeter-systems"><b>ZeroSlop™ Action</b></a> &nbsp;◆&nbsp;
+  <a href="https://github.com/apps/zeroslop-engine"><b>1-Click GitHub App</b></a> &nbsp;◆&nbsp;
+  <a href="https://ribbsaetersystems.com/zeroslop"><b>Live Simulator</b></a> &nbsp;◆&nbsp;
+  <a href="https://ribbsaetersystems.com"><b>ribbsaetersystems.com</b></a> &nbsp;◆&nbsp;
+  <a href="https://patrickribbsaeter.com"><b>patrickribbsaeter.com</b></a>
+</p>
+
+<br/>
 
 <img src="./assets/zeroslop-metrics.svg" width="100%" alt="Invariant Lock: 100% Green CI First · Diff Reduction: 94.2% · Zero Code Retention · Node 20 Enclave" />
 
