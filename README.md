@@ -44,7 +44,7 @@
 > **The Executive Summary**: AI coding agents increased code output by 300%, but engineering velocity slowed down by 40% because senior architects are trapped acting as human linters. **ZeroSlop™ by Ribbsaeter Systems** mechanically audits incoming PR diffs against architectural invariants, stripping slop down to surgical, green commits that merge in minutes.
 
 > 📦 **Two Ways to Deploy ZeroSlop™**:
-> * 🚀 **1-Click GitHub App (Zero YAML Setup · Recommended for Orgs)**: Native webhook monitoring across your entire organization with automated in-place PR verdict cards. 👉 [**Install ZeroSlop GitHub App on GitHub Marketplace →**](https://github.com/marketplace/zeroslop-by-ribbsaeter-systems)
+> * 🚀 **1-Click GitHub App (Zero YAML Setup · Recommended for Orgs)**: Native webhook monitoring across your entire organization with automated in-place PR verdict cards. 👉 [**Install ZeroSlop GitHub App →**](https://github.com/apps/zeroslop-engine)
 > * ⚙️ **GitHub Action (CI Pipeline Step)**: Fine-grained YAML control directly within `.github/workflows/zeroslop.yml` running in ephemeral runner RAM. [Jump to Quickstart below ↓](#quickstart)
 
 <br/>
@@ -149,7 +149,7 @@ ZeroSlop is not marketing theory. It is powered by the exact invariant engine th
 ## 🚀 60-Second Quickstart (GitHub Action or GitHub App)
 
 > 💡 **Choose Your Deployment**:
-> * **Want 1-click install without writing YAML?** Install the native **[ZeroSlop GitHub App on GitHub Marketplace →](https://github.com/marketplace/zeroslop-by-ribbsaeter-systems)**
+> * **Want 1-click install without writing YAML?** Install the native **[ZeroSlop GitHub App →](https://github.com/apps/zeroslop-engine)**
 > * **Prefer runner-level YAML integration?** Click the green **"Use latest version"** button at the top-right corner of this Marketplace page, or copy the workflow below directly into your repository at `.github/workflows/zeroslop.yml`:
 
 Download and test ZeroSlop on **1 pull request for free** out of the box, or pass your **`ZEROSLOP_API_KEY`** for continuous unlimited protection. Add this workflow file to your repository at `.github/workflows/zeroslop.yml`:
