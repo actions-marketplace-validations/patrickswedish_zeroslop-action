@@ -21,7 +21,7 @@ We release patches and security updates for the following versions of ZeroSlop A
 **Please DO NOT file public GitHub issues for security vulnerabilities.**
 
 To report a vulnerability, please contact our security team directly:
-* **Email**: [security@ribbsaetersystems.com](mailto:security@ribbsaetersystems.com)
+* **Email**: [contact@ribbsaetersystems.com](mailto:contact@ribbsaetersystems.com)
 * **Response SLA**: We acknowledge receipt of vulnerability reports within **24 to 48 hours**.
 * **Remediation Target**: Critical issues are triaged and patched within **7 business days**.
 

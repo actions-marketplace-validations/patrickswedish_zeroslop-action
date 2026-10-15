@@ -77,7 +77,7 @@ Modern AI coding agents (Claude Code, Cursor, Devin, Copilot) generate extraordi
 
 ## ⚡ The Solution: The ZeroSlop™ Invariant Airlock
 
-**ZeroSlop™ by Ribbsaeter Systems** is a drop-in pre-flight airlock for GitHub Actions. It intercepts pull requests before they touch public CI or human maintainers, auditing AST diffs against strict architectural invariants.
+**ZeroSlop™ by Ribbsaeter Systems** is a drop-in pre-flight airlock for GitHub Actions. It intercepts pull requests before they touch public CI or human maintainers, auditing incoming pull request diffs against strict architectural invariants.
 
 <div align="center">
   <br/>
@@ -196,13 +196,13 @@ ZeroSlop is not marketing theory. It is powered by the exact invariant engine th
 
 | Architectural Dimension | Legacy Cloud Reviewers (CodeRabbit, Qodo) | ZeroSlop™ by Ribbsaeter Systems |
 | :--- | :--- | :--- |
-| **Execution Architecture** | **Cloud LLM Swarm**: Routes source diffs to external OpenAI/Anthropic APIs | **Local In-Memory AST Binary**: Executes 100% locally in volatile runner RAM |
-| **Execution Latency** | **Minutes to Hours**: Network hops, cloud queuing, and LLM token generation | **⚡ 3.8 Seconds**: Deterministic static compilation & AST invariant evaluation |
+| **Execution Architecture** | **Cloud LLM Swarm**: Routes source diffs to external OpenAI/Anthropic APIs | **Deterministic Pre-Flight Binary**: Executes 100% locally in volatile runner RAM |
+| **Execution Latency** | **Minutes to Hours**: Network hops, cloud queuing, and LLM token generation | **⚡ 3.8 Seconds**: Sub-second deterministic verification & invariant evaluation |
 | **Data Privacy & Compliance** | **High Exposure**: Customer code leaves private VPC to third-party cloud SaaS | **🔒 Zero Data Retention**: Exactly 0 bytes leave runner (Swiss Privacy Standard) |
 | **PR Developer Experience** | **15–30 Chatty Comments**: Noise fatigue, opinionated bot arguments on code lines | **The Silent Airlock**: Single self-updating PR verdict card; zero comment spam |
 | **Test Deletion Defense** | **Zero Guarantee**: LLMs hallucinate passes; ignore deleted assertions and tests | **Hard-Blocks Test Deletion**: Mechanically intercepts deleted assertions, dropped test suites, and weakened contracts |
 | **Real-World Cycle Delta** | **6-Minute Delta**: ~16.8h → ~16.7h median merge time *(CodeRabbit Neo Case Study)* | **🚀 Merge-Ready in Seconds**: Peels 94% of AI wrapper bloat down to root invariant |
-| **Adversarial Immunity** | **Vulnerable**: Susceptible to PR prompt injection & Unicode trojans (`CVE-2021-42574`) | **Mathematically Immune**: Static compiler AST cannot be jailbroken by diff text |
+| **Adversarial Immunity** | **Vulnerable**: Susceptible to PR prompt injection & Unicode trojans (`CVE-2021-42574`) | **Mathematically Immune**: Deterministic airlock logic cannot be jailbroken by diff text |
 | **Pricing & Cost Model** | **Opaque Enterprise Quotes & Seat Creep**: $24–$40/seat/mo + mandatory annual lock-in | **Transparent Flat Licensing**: **$0** (1-PR Free Try) · **$29/mo Pro** (Flat Rate) · **$199/mo Enterprise** (Flat Rate) |
 
 ---
@@ -278,7 +278,7 @@ Add the official sovereign badge to your repository's `README.md` to signal to c
 | **`post_pr_comment`** | `'true'` | Maintain a single self-updating Sovereign Verdict Card comment in the PR timeline with an embedded Mermaid Blast Radius graph. |
 | **`auto_close_slop`** | `'false'` | Automatically close Pull Requests failing with severe AI slop or CRITICAL security vulnerabilities (Pro/Enterprise). |
 | **`ci_diagnostics`** | `'false'` | Enable Pro CI Flake Classifier isolating contributor green code from maintainer triage gates and upstream runner infrastructure flakes. |
-| **`base_branch`** | `'main'` | Base branch to compare incoming pull request diffs against during pre-flight AST invariant and 12-Shield CWE security evaluation. |
+| **`base_branch`** | `'main'` | Base branch to compare incoming pull request diffs against during pre-flight invariant and 12-Shield CWE security evaluation. |
 | **`auto_polish`** | `'true'` | Automatically execute repository-native linters and verify compiler and formatting hygiene inside the ephemeral runner enclave. |
 | **`fail_on_slop`** | `'true'` | Fail the GitHub Actions status check if unmitigated AI slop or deterministic CWE security vulnerabilities are detected. |
 | **`github_token`** | `github.token` | GitHub token used for querying workflow check runs and updating the single in-place PR Verdict Card in the pull request thread. |
@@ -321,7 +321,7 @@ Competitors tell you *"the future isn't writing code—it's reviewing it and pri
 | **Workflow & UI** | **✓ Zero-Click GitHub Summary + 1 In-Place PR Card** — Zero external SaaS dashboards or portal logins | ✕ Herds developers into external SaaS portals, ChangeStacks, and 80-PR Kanban review queues |
 | **Blast Radius** | **✓ Automatic Mermaid Reachability in PR** — Maps Entrypoint ➔ Auth Boundary ➔ Persistence Sink | ⚠️ Requires manual clicking across external SaaS UI tabs or isolated file-level lint alerts |
 | **12-Shield CWE Gate** | **✓ Deterministically Blocks 12 MITRE CWE Classes** — SQLi, Seeded Creds, IDOR, SSRF & CI Pwn Requests | ⚠️ Probabilistic LLM chat commentary leaving 1,999+ unfixed findings sitting in dashboard charts |
-| **Prompt Injection** | **✓ 100% Deterministic AST & CWE Engine** — Mathematically immune to adversarial PR diff jailbreaks | ✕ Conversational LLMs are vulnerable to indirect prompt injection hidden inside PR comments |
+| **Prompt Injection** | **✓ 100% Deterministic CWE Security Airlock** — Mathematically immune to adversarial PR diff jailbreaks | ✕ Conversational LLMs are vulnerable to indirect prompt injection hidden inside PR comments |
 | **Slop Distillation** | **✓ Strips 94% of Hallucinated AI Wrappers** — Mechanically blocks unauthorized regression test deletions | ✕ Adds 25+ noisy bot comments on top of AI slop without shrinking the underlying pull request diff |
 | **CI Flake Isolation** | **✓ Isolates Contributor Code Defects** — Separates upstream runner flakes from maintainer triage gates | ✕ Blind to upstream GitHub Actions runner timeouts versus maintainer approval label gates |
 | **Code Retention** | **✓ Strictly Zero Source-Code Retention** — Ephemeral RAM Enclave compliant with Swiss FADP & GDPR | ⚠️ Ships proprietary diffs to 3rd-party LLM APIs or persists source code snapshots in cloud databases |
@@ -370,7 +370,7 @@ AI coding agents (Cursor, Copilot, Claude Code) increased commit volume by 300%,
 
 | Tier & Investment | Scope & Concurrency | Capabilities Included & Instant Activation |
 | :--- | :--- | :--- |
-| **Single Evaluation Try** · **`$0`** *(1 PR Try)* | **1 Developer · 1 PR Audit** *(One-Time Evaluation · Locks After 1 PR)* | AST diff parser · 12-Shield CWE Security Airlock · Zero-Click Mermaid Blast Radius · Zero-test-deletion guard — 👉 [**Try 1 PR Free on GitHub Marketplace →**](https://github.com/marketplace/actions/zeroslop-by-ribbsaeter-systems) |
+| **Single Evaluation Try** · **`$0`** *(1 PR Try)* | **1 Developer · 1 PR Audit** *(One-Time Evaluation · Locks After 1 PR)* | Pre-Flight Invariant Airlock · 12-Shield CWE Security Airlock · Zero-Click Mermaid Blast Radius · Zero-test-deletion guard — 👉 [**Try 1 PR Free on GitHub Marketplace →**](https://github.com/marketplace/actions/zeroslop-by-ribbsaeter-systems) |
 | **ZeroSlop™ Pro** · **`$29 / month`** | **1 Pro Developer Seat** *(Unlimited Repositories · Unlimited PRs)* | **Unlimited PR Audits** · **12-Shield CWE Security Airlock** · **Single In-Place PR Verdict Card** · **CI Flake Classifier** — 👉 [**Subscribe ZeroSlop™ Pro ($29/mo) →**](https://buy.stripe.com/28E5kFflO4n65Ho9JFfQI02) |
 | **ZeroSlop™ Enterprise** · **`$1,999 / month`** | **Per 100 Active Developers** *(Dedicated VPC · Unlimited Repositories)* | Everything in Pro + **Dedicated VPC Invariant Enclave** · Custom CWE & Wire Protocol Rules · Air-Gapped Runners · 24/7 SLA — 👉 [**Deploy Enterprise Core ($1,999/mo) →**](https://buy.stripe.com/aFaeVf0qU06Qb1I9JFfQI03) |
 
