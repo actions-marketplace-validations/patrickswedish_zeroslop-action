@@ -88,7 +88,7 @@ Modern AI coding agents (Claude Code, Cursor, Devin, Copilot) generate extraordi
 ### How The Sovereign Engine Operates:
 
 1. **Autonomous Slop Reduction**: Surgically isolates root invariants, eliminating up to **94% of hallucinated wrappers and defensive AI bloat** before human review.
-2. **12-Shield Deterministic CWE Security Airlock**: Mechanically intercepts high-risk AI-generated security vulnerabilities before human review—blocking SQL/vector injection (`CWE-89`), seeded/hardcoded credentials & plaintext auth (`CWE-798`/`CWE-256`), unbound caller identity / IDOR (`CWE-639`), command/code injection (`CWE-78`/`CWE-94`), unsafe deserialization (`CWE-502`), SSRF (`CWE-918`), silent error masking (`CWE-390`), CI workflow "Pwn Requests" (`CWE-426`), AI package "Slopsquatting" (`CWE-829`), and unbounded loop/timer resource exhaustion (`CWE-400`).
+2. **12-Shield Deterministic CWE Security Airlock**: Mechanically intercepts high-risk AI-generated security vulnerabilities before human review—blocking SQL/vector injection (`CWE-89`), high-entropy API secrets & tokens (`CWE-798`), hardcoded local user filesystem leaks (`CWE-200`), unbound caller identity / IDOR (`CWE-639`), command/code injection (`CWE-78`/`CWE-94`), unsafe deserialization (`CWE-502`), SSRF & disabled TLS (`CWE-918`/`CWE-295`), silent error masking (`CWE-390`), CI workflow "Pwn Requests" (`CWE-426`), AI package "Slopsquatting" (`CWE-829`), and unbounded loop/timer resource exhaustion (`CWE-400`).
 3. **Zero-Click Cross-Layer Blast Radius & Mermaid Dependency Graph**: Maps architectural impact across `API Entrypoints ➔ Auth Boundaries ➔ AI Pipelines ➔ Persistence/Vector Sinks` with an embedded Mermaid diagram directly inside the native GitHub PR summary and a **Single Self-Updating PR Verdict Card**—eliminating bloated external SaaS dashboards and click-heavy review tools.
 4. **Prompt-Injection & Trojan-Source Immunity (`CVE-2021-42574`)**: Unlike conversational LLM review bots that can be jailbroken by adversarial instructions hidden inside PR diffs, ZeroSlop's deterministic airlock is mathematically immune to prompt injection and actively blocks bidirectional Unicode attacks.
 5. **Local Compiler Enclave & Autonomous Polish**: Runs compiler checks, type evaluation, and repository-native formatters (Prettier, Ruff, Clippy, ESLint, gofmt) ephemerally in RAM before burning shared CI minutes.
@@ -130,13 +130,12 @@ ZeroSlop is not marketing theory. It is powered by the exact invariant engine th
 | System | Stack | Architectural Invariant Delivered | Upstream Status |
 | :--- | :--- | :--- | :---: |
 | **Hugging Face Diffusers** | GenAI · Python | InpaintProcessor 3-tuple return contract preservation when mask tensor input is None | **Merged**<br/>[PR #14481](https://github.com/huggingface/diffusers/pull/14481) |
-| **SGLang** | LLM Serving · Py / CUDA | Mid-turn inline system message in-place attachment preserving RadixAttention prefix cache | **98 Green**<br/>[PR #42533](https://github.com/sgl-project/sglang/pull/42533) |
-| **vLLM** | LLM Serving · Python | Warn on unsupported non-text system content blocks in Anthropic Chat API | **Checks Green**<br/>[PR #61721](https://github.com/vllm-project/vllm/pull/61721) |
-| **vLLM** | LLM Serving · Python | Empty and non-mapping YAML configuration validation preventing unhandled CLI startup crash | **Checks Green**<br/>[PR #60319](https://github.com/vllm-project/vllm/pull/60319) |
+| **SGLang** | LLM Serving · Py / CUDA | Weight checker rotary embedding axis_map buffer preservation across multi-GPU ranks | **Checks Green**<br/>[PR #44520](https://github.com/sgl-project/sglang/pull/44520) |
+| **vLLM** | LLM Serving · Python | Descriptive ValueError exception guard for unsupported Mamba2 and Zamba2 LoRA adapters | **Checks Green**<br/>[PR #61870](https://github.com/vllm-project/vllm/pull/61870) |
 | **OpenAI Triton** | GPU Compiler · C++ / Py | Nanobind static build free-threaded Python PEP 703 GIL module slot declaration | **Checks Green**<br/>[PR #12221](https://github.com/triton-lang/triton/pull/12221) |
 | **Meta TorchTune** | LLM Training · Python | Mistral and Gemma end-token generation stopping control and tokenizer parity | **3/3 Green**<br/>[PR #2977](https://github.com/meta-pytorch/torchtune/pull/2977) |
 | **Aider** | AI Dev Tool · Python | Enforce strict token budget ceiling during repository map binary search | **Checks Green**<br/>[PR #5854](https://github.com/Aider-AI/aider/pull/5854) |
-| **Continue** | AI Dev Tool · TypeScript | Prevent negative prompt budget and silent prompt wipeout on small context models | **Checks Green**<br/>[PR #13379](https://github.com/continuedev/continue/pull/13379) |
+| **Continue** | AI Dev Tool · TypeScript | Preserve SSE keep-alive ping comments during event streaming without premature truncation | **13/13 Green**<br/>[PR #13382](https://github.com/continuedev/continue/pull/13382) |
 
 <br/>
 
@@ -162,6 +161,7 @@ ZeroSlop is not marketing theory. It is powered by the exact invariant engine th
 | **DuckDB** | Database · C++ | PIVOT IN list zero-argument `row()` expression preservation and null dereference guard | **Merged**<br/>[PR #26443](https://github.com/duckdb/duckdb/pull/26443) |
 | **Meta Velox** | Query Engine · C++20 | TopNRowNumber in-memory rank ordering correctness and partition stream execution parity | **Merged**<br/>[PR #18529](https://github.com/facebookincubator/velox/pull/18529) |
 | **Apache DataFusion** | Query Engine · Rust | Execution-layer schema conformance across in-memory physical execution and aggregation | **Merged**<br/>[PR #24394](https://github.com/apache/datafusion/pull/24394) |
+| **Apache DataFusion** | Query Engine · Rust | Preserve inner list field nullability across general_list_repeat execution | **Checks Green**<br/>[PR #26379](https://github.com/apache/datafusion/pull/26379) |
 | **Valkey** | Datastore · C99 | Cluster key-slot resolution and client-side cache validation for arbitrary key commands | **Merged**<br/>[PR #4424](https://github.com/valkey-io/valkey/pull/4424) |
 | **ClickHouse** | OLAP Engine · C++20 | Bounds validation on parallel replicas legacy query plan limit enforcement pipeline | **174/176 Green**<br/>[PR #114954](https://github.com/ClickHouse/ClickHouse/pull/114954) |
 | **Apache DataFusion** | Query Engine · Rust | PushDownFilter clippy mutable key type allow annotations for logical Expr hash sets | **43/43 Green**<br/>[PR #26189](https://github.com/apache/datafusion/pull/26189) |
