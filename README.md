@@ -54,9 +54,9 @@
 
 > **The Executive Summary**: AI coding agents increased code output by 300%, but engineering velocity slowed down by 40% because senior architects are trapped acting as human linters. **ZeroSlop™ by Ribbsaeter Systems** mechanically audits incoming PR diffs against architectural invariants, stripping slop down to surgical, green commits that merge in minutes.
 
-> 📦 **Two Ways to Deploy ZeroSlop™**:
-> * 🚀 **1-Click GitHub App (Zero YAML Setup · Recommended for Orgs)**: Native webhook monitoring across your entire organization with automated in-place PR verdict cards. 👉 [**Install ZeroSlop GitHub App →**](https://github.com/apps/zeroslop-engine)
-> * ⚙️ **GitHub Action (CI Pipeline Step)**: Fine-grained YAML control directly within `.github/workflows/zeroslop.yml` running in ephemeral runner RAM. [Jump to Quickstart below ↓](#quickstart)
+> 🎁 **Two Free Trial Alternatives to Choose From**:
+> * 🚀 **Alternative 1: 14-Day Free Trial (1-Click GitHub App · Recommended for Orgs)**: Experience **2 full weeks completely free** with zero YAML configuration. Native webhook monitoring across all public and private repositories with automated in-place PR verdict cards. 👉 [**Start 14-Day Free Trial via GitHub App →**](https://github.com/apps/zeroslop-engine)
+> * ⚙️ **Alternative 2: 1-PR Instant Evaluation Try (GitHub Action · CI Pipeline Step)**: Test the airlock immediately on a single pull request directly within `.github/workflows/zeroslop.yml`. Zero credit card required; **1 complimentary PR audit** out of the box (locks after 1 PR). 👉 [**Try 1 PR Free on GitHub Marketplace →**](https://github.com/marketplace/actions/zeroslop-by-ribbsaeter-systems) · [Jump to Quickstart ↓](#quickstart)
 
 <br/>
 
@@ -255,10 +255,13 @@ Add the official sovereign badge to your repository's `README.md` to signal to c
 [zeroslop-url]: https://ribbsaetersystems.com/zeroslop
 ```
 
-### 1-PR Free Evaluation Try vs. Commercial License Key
+### Two Free Trial Alternatives to Choose From vs. Commercial License Key
 
-* **Single Evaluation Try (1st Pull Request Free)**: Every GitHub account or organization receives **1 complimentary pull request audit** with zero configuration required. One surgical, 100% green pull request merge proves the ZeroSlop standard. After 1 pull request, your account is locked until a commercial license key is activated.
-* **ZeroSlop™ Pro (`$29/mo`) & Enterprise (`$1,999/mo`) License Key**: Unlocks continuous, unlimited pull request protection across private and public repositories, Active Auto-Close enforcement, and the Autonomous CI Flake & Triage Classifier. Provision your key in 30 seconds at [**ribbsaetersystems.com/zeroslop**](https://ribbsaetersystems.com/zeroslop) and store it as `ZEROSLOP_API_KEY` in your repository or organization secrets.
+Choose whichever evaluation path fits your team's workflow:
+
+* 🚀 **Alternative 1 — 14-Day Full Free Trial (1-Click GitHub App · Recommended for Orgs)**: Install the [ZeroSlop GitHub App](https://github.com/apps/zeroslop-engine) for **2 full weeks (14 days) completely free**. Protect unlimited pull requests across your entire organization with zero YAML configuration and automated in-place verdict cards.
+* ⚙️ **Alternative 2 — 1-PR Instant Evaluation Try (GitHub Action · CI Pipeline Step)**: Add the [ZeroSlop Action](https://github.com/marketplace/actions/zeroslop-by-ribbsaeter-systems) directly to `.github/workflows/zeroslop.yml` for **1 complimentary pull request audit** with zero credit card required. Experience the pre-flight invariant airlock on a single live PR before upgrading. Locks after 1 PR.
+* ⚡ **Commercial Activation — ZeroSlop™ Pro (`$29/mo`) & Enterprise (`$1,999/mo`)**: Unlocks continuous, unlimited pull request protection across private and public repositories, Active Auto-Close enforcement, and the Autonomous CI Flake & Triage Classifier. Provision your key in under 60 seconds via [Stripe Checkout](https://buy.stripe.com/28E5kFflO4n65Ho9JFfQI02) and store it as `ZEROSLOP_API_KEY` in your repository or organization secrets.
 
 <div align="center">
   <br/>
@@ -362,6 +365,10 @@ AI coding agents (Cursor, Copilot, Claude Code) increased commit volume by 300%,
 
 ## 💼 Choose Your Package & Subscribe (Commercial Licensing & Pricing)
 
+> ### 🎁 Two Free Trial Alternatives to Choose From
+> * **Option A (1-Click GitHub App)**: [**Start 14-Day Free Trial →**](https://github.com/apps/zeroslop-engine) — *2 weeks free · Zero YAML setup · Org-wide protection*
+> * **Option B (GitHub Action)**: [**Try 1 PR Free on GitHub Marketplace →**](https://github.com/marketplace/actions/zeroslop-by-ribbsaeter-systems) — *1 complimentary PR audit · Zero credit card · Locks after 1 PR*
+>
 > ### ⚡ Instant Pro Activation ($29 / month)
 > **Choose your subscription package below. Direct self-serve activation via Stripe with instant license key delivery in under 60 seconds:**
 > 
@@ -370,7 +377,8 @@ AI coding agents (Cursor, Copilot, Claude Code) increased commit volume by 300%,
 
 | Tier & Investment | Scope & Concurrency | Capabilities Included & Instant Activation |
 | :--- | :--- | :--- |
-| **Single Evaluation Try** · **`$0`** *(1 PR Try)* | **1 Developer · 1 PR Audit** *(One-Time Evaluation · Locks After 1 PR)* | Pre-Flight Invariant Airlock · 12-Shield CWE Security Airlock · Zero-Click Mermaid Blast Radius · Zero-test-deletion guard — 👉 [**Try 1 PR Free on GitHub Marketplace →**](https://github.com/marketplace/actions/zeroslop-by-ribbsaeter-systems) |
+| **14-Day Free Trial** · **`$0`** *(GitHub App)* | **Unlimited Repositories · 14 Days** *(Org-Wide Free Trial · Zero YAML)* | **2 Weeks Full Access** · Automated Webhook Monitoring · In-Place PR Verdict Cards · Zero YAML Setup — 👉 [**Start 14-Day Free Trial on GitHub App →**](https://github.com/apps/zeroslop-engine) |
+| **Single Evaluation Try** · **`$0`** *(GitHub Action)* | **1 Developer · 1 PR Audit** *(One-Time Evaluation · Locks After 1 PR)* | Pre-Flight Invariant Airlock · 12-Shield CWE Security Airlock · Zero-Click Mermaid Blast Radius · Zero-test-deletion guard — 👉 [**Try 1 PR Free on GitHub Marketplace →**](https://github.com/marketplace/actions/zeroslop-by-ribbsaeter-systems) |
 | **ZeroSlop™ Pro** · **`$29 / month`** | **1 Pro Developer Seat** *(Unlimited Repositories · Unlimited PRs)* | **Unlimited PR Audits** · **12-Shield CWE Security Airlock** · **Single In-Place PR Verdict Card** · **CI Flake Classifier** — 👉 [**Subscribe ZeroSlop™ Pro ($29/mo) →**](https://buy.stripe.com/28E5kFflO4n65Ho9JFfQI02) |
 | **ZeroSlop™ Enterprise** · **`$1,999 / month`** | **Per 100 Active Developers** *(Dedicated VPC · Unlimited Repositories)* | Everything in Pro + **Dedicated VPC Invariant Enclave** · Custom CWE & Wire Protocol Rules · Air-Gapped Runners · 24/7 SLA — 👉 [**Deploy Enterprise Core ($1,999/mo) →**](https://buy.stripe.com/aFaeVf0qU06Qb1I9JFfQI03) |
 
@@ -412,8 +420,10 @@ Inquire confidentially: [**contact@ribbsaetersystems.com**](mailto:contact@ribbs
 
 ## ❓ Frequently Asked Questions (FAQ)
 
-### How does the 1-PR Free Evaluation Try work?
-Every GitHub account or organization receives **1 complimentary pull request audit** upon installing ZeroSlop from the GitHub Marketplace. One clean, surgical pull request merge is enough to prove the ZeroSlop standard. After your 1st pull request, your account is locked until you activate a **ZeroSlop™ Pro ($29/mo)** or **Enterprise ($1,999/mo)** license key. ZeroSlop does not offer recurring monthly free tiers.
+### What are the two free trial alternatives to choose from?
+We offer two distinct, zero-risk ways to evaluate ZeroSlop:
+1. 🚀 **14-Day Full Free Trial via GitHub App**: Install the [ZeroSlop GitHub App](https://github.com/apps/zeroslop-engine) for **2 full weeks (14 days) of unlimited pull request audits** across all public and private repositories with zero YAML configuration. Automated webhook monitoring posts in-place PR verdict cards directly in your review threads.
+2. ⚙️ **1-PR Instant Evaluation Try via GitHub Action**: Add the [ZeroSlop Action](https://github.com/marketplace/actions/zeroslop-by-ribbsaeter-systems) directly to your `.github/workflows/zeroslop.yml` for **1 complimentary pull request audit** with zero credit card required. Test the airlock on a live PR. After 1 PR, lock-in applies until activating a **ZeroSlop™ Pro ($29/mo)** or **Enterprise ($1,999/mo)** license key via Stripe. ZeroSlop does not offer recurring monthly free tiers.
 
 ### How do I activate my license key after purchasing?
 Immediately after checkout via Stripe, you are redirected to your private activation screen displaying your sovereign API key (`RST_LIVE_xxx`). Copy this key, navigate to your GitHub Repository or Organization **Settings → Secrets and variables → Actions**, create a secret named `ZEROSLOP_API_KEY`, and pass `api_key: ${{ secrets.ZEROSLOP_API_KEY }}` in your workflow YAML. Your pull requests are unlocked in under 60 seconds.
