@@ -203,7 +203,7 @@ ZeroSlop is not marketing theory. It is powered by the exact invariant engine th
 | **Test Deletion Defense** | **Zero Guarantee**: LLMs hallucinate passes; ignore deleted assertions and tests | **Hard-Blocks Test Deletion**: Mechanically intercepts deleted assertions, dropped test suites, and weakened contracts |
 | **Real-World Cycle Delta** | **6-Minute Delta**: ~16.8h → ~16.7h median merge time *(CodeRabbit Neo Case Study)* | **🚀 Merge-Ready in Seconds**: Peels 94% of AI wrapper bloat down to root invariant |
 | **Adversarial Immunity** | **Vulnerable**: Susceptible to PR prompt injection & Unicode trojans (`CVE-2021-42574`) | **Mathematically Immune**: Deterministic airlock logic cannot be jailbroken by diff text |
-| **Pricing & Cost Model** | **Opaque Enterprise Quotes & Seat Creep**: $24–$40/seat/mo + mandatory annual lock-in | **Transparent Flat Licensing**: **$0** (1-PR Free Try) · **$29/mo Pro** (Flat Rate) · **$199/mo Enterprise** (Flat Rate) |
+| **Pricing & Cost Model** | **Opaque Enterprise Quotes & Seat Creep**: $24–$40/seat/mo + mandatory annual lock-in | **Transparent Flat Licensing**: **$0** (1-PR Free Try) · **$29/mo Pro** (Flat Rate) · **$1,999/mo Enterprise Core** (Flat Rate / 100 Devs) |
 
 ---
 
@@ -394,10 +394,10 @@ Enterprise Core is billed in transparent **100-developer blocks at $1,999 / mont
 | Engineering Headcount | License Allocation | Monthly / Annual Investment | Instant Self-Serve Activation |
 | :--- | :--- | :--- | :--- |
 | **1 – 68 Engineers** | Individual Pro Seats ($29/dev) | **$29 – $1,972 / month** (self-serve seats) | [Subscribe ZeroSlop Pro ($29/mo) →](https://buy.stripe.com/28E5kFflO4n65Ho9JFfQI02) |
-| **Up to 100 Engineers** | 1x Enterprise Core Block (100 seats) | **$1,999 / mo** ($23,988/yr flat rate) | [Deploy 1x Enterprise Block →](https://buy.stripe.com/aFaeVf0qU06Qb1I9JFfQI03) |
-| **Up to 200 Engineers** | 2x Enterprise Core Blocks (200 seats) | **$3,998 / mo** ($47,976/yr flat rate) | [Deploy 2x Enterprise Blocks →](https://buy.stripe.com/aFaeVf0qU06Qb1I9JFfQI03) |
-| **Up to 500 Engineers** | 5x Enterprise Core Blocks (500 seats) | **$9,995 / mo** ($119,940/yr flat rate) | [Deploy 5x Enterprise Blocks →](https://buy.stripe.com/aFaeVf0qU06Qb1I9JFfQI03) |
-| **Up to 1,000 Engineers** | 10x Enterprise Core Blocks (1,000 seats) | **$19,990 / mo** ($239,880/yr flat rate) | [Deploy 10x Enterprise Blocks →](https://buy.stripe.com/aFaeVf0qU06Qb1I9JFfQI03) |
+| **Up to 100 Engineers** | 1x Enterprise Core Block (100 seats) | **$1,999 / mo** ($23,988/yr flat rate) | [Deploy 1x Enterprise Block ($1,999/mo) →](https://buy.stripe.com/aFaeVf0qU06Qb1I9JFfQI03) |
+| **Up to 200 Engineers** | 2x Enterprise Core Blocks (200 seats) | **$3,998 / mo** ($47,976/yr flat rate) | [Deploy 2x Enterprise Blocks ($3,998/mo) →](https://buy.stripe.com/bJe6oJ0qU9Hqd9QdZVfQI04) |
+| **Up to 500 Engineers** | 5x Enterprise Core Blocks (500 seats) | **$9,995 / mo** ($119,940/yr flat rate) | [Deploy 5x Enterprise Blocks ($9,995/mo) →](https://buy.stripe.com/14AcN70qU8Dmd9Qf3ZfQI05) |
+| **Up to 1,000 Engineers** | 10x Enterprise Core Blocks (1,000 seats) | **$19,990 / mo** ($239,880/yr flat rate) | [Deploy 10x Enterprise Blocks ($19,990/mo) →](https://buy.stripe.com/cNi9AV1uY4n60n4f3ZfQI06) |
 
 *Zero sales negotiation. Zero multi-week procurement friction. Calculate your engineering headcount and deploy organization-wide via Stripe.*
 
