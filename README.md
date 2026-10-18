@@ -9,9 +9,9 @@
   <a href="https://github.com/marketplace/actions/zeroslop-by-ribbsaeter-systems"><b>ZeroSlop™ Action</b></a> &nbsp;◆&nbsp;
   <a href="https://github.com/apps/zeroslop-engine"><b>1-Click GitHub App</b></a> &nbsp;◆&nbsp;
   <a href="https://hf.co/spaces/Patrickribbsaeter/zeroslop-kv-cache-estimator"><b>KV Cache Estimator (Hugging Face)</b></a> &nbsp;◆&nbsp;
-  <a href="https://ribbsaetersystems.com/inference"><b>Inference Runtime</b></a> &nbsp;◆&nbsp;
-  <a href="https://ribbsaetersystems.com/zeroslop"><b>Live Simulator</b></a> &nbsp;◆&nbsp;
-  <a href="https://ribbsaetersystems.com"><b>ribbsaetersystems.com</b></a>
+  <a href="https://www.ribbsaetersystems.com/inference"><b>Inference Runtime</b></a> &nbsp;◆&nbsp;
+  <a href="https://www.ribbsaetersystems.com/zeroslop"><b>Live Simulator</b></a> &nbsp;◆&nbsp;
+  <a href="https://www.ribbsaetersystems.com"><b>ribbsaetersystems.com</b></a>
 </p>
 
 <br/>
@@ -30,7 +30,7 @@
 
 <br/><br/>
 
-<a href="https://ribbsaetersystems.com/zeroslop">
+<a href="https://www.ribbsaetersystems.com/zeroslop">
   <img src="./assets/card-simulator.svg" width="49%" alt="Try Interactive Diff Simulator on Ribbsaeter Systems" />
 </a>
 &nbsp;
@@ -255,8 +255,8 @@ Add the official sovereign badge to your repository's `README.md` to signal to c
 ```markdown
 [![ZeroSlop Airlock][zeroslop-badge]][zeroslop-url]
 
-[zeroslop-badge]: https://ribbsaetersystems.com/api/v1/badge
-[zeroslop-url]: https://ribbsaetersystems.com/zeroslop
+[zeroslop-badge]: https://www.ribbsaetersystems.com/api/v1/badge
+[zeroslop-url]: https://www.ribbsaetersystems.com/zeroslop
 ```
 
 ### Two Free Trial Alternatives to Choose From vs. Commercial License Key
@@ -405,7 +405,7 @@ Enterprise Core is billed in transparent **100-developer blocks at $1,999 / mont
 
 *Zero sales negotiation. Zero multi-week procurement friction. Calculate your engineering headcount and deploy organization-wide via Stripe.*
 
-Provision license keys and explore the live interactive simulator at [**ribbsaetersystems.com/zeroslop**](https://ribbsaetersystems.com/zeroslop).
+Provision license keys and explore the live interactive simulator at [**www.ribbsaetersystems.com/zeroslop**](https://www.ribbsaetersystems.com/zeroslop).
 
 ---
 
@@ -418,7 +418,7 @@ Beyond autonomous CI invariant protection, Ribbsaeter Systems operates an elite,
 * **Principal Systems Architecture Retainer ($35,000 – $65,000 / month)**:  
   Direct access to Patrick Ribbsaeter for core distributed memory hierarchies, low-level CPython 3.14t free-threading (PEP 703) migrations, and mission-critical compiler invariants across OpenAI Triton, LLVM, Meta Velox, and DuckDB.
 
-Inquire confidentially: [**contact@ribbsaetersystems.com**](mailto:contact@ribbsaetersystems.com) · Subject: `[FRONTIER-AI-ADVISORY]` · [Explore Frontier AI Practice](https://ribbsaetersystems.com/services/ai-infrastructure)
+Inquire confidentially: [**contact@ribbsaetersystems.com**](mailto:contact@ribbsaetersystems.com) · Subject: `[FRONTIER-AI-ADVISORY]` · [Explore Frontier AI Practice](https://www.ribbsaetersystems.com/inference)
 
 ---
 
