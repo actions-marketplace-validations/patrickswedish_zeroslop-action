@@ -113,7 +113,7 @@ ZeroSlop is not marketing theory. It is powered by the exact invariant engine th
 > ### 🛡️ Universal 3-Tier Multi-Ecosystem Coverage: For Every Developer, Every Repository, Every Stack.
 > ZeroSlop is not a specialized niche tool. It is an autonomous invariant defense system that operates across the full breadth of the global software ecosystem:
 > 
-> * **Tier 1: Hyperscale Infrastructure & Compilers (Rust, C++, Zig, CUDA)**: Proven in the world's most unforgiving production environments—including **AWS Firecracker**, **LLVM SelectionDAG**, **Meta Velox**, **DuckDB**, **Apache DataFusion**, **OpenAI Triton**, and **ClickHouse**. Guarantees zero-copy buffer safety, strict memory lifetime ownership, and compiler attribute conformance.
+> * **Tier 1: Hyperscale Infrastructure & Compilers (Rust, C++, Zig, CUDA)**: Proven in the world's most unforgiving production environments—including **Apache Arrow (Rust)**, **AWS Firecracker**, **LLVM SelectionDAG**, **Meta Velox**, **DuckDB**, **Apache DataFusion**, **OpenAI Triton**, and **ClickHouse**. Guarantees zero-copy buffer safety, strict memory lifetime ownership, and compiler attribute conformance.
 > * **Tier 2: Production Cloud Platforms, Distributed Frameworks & Web3 (TypeScript, Python, Go)**: Protects high-velocity commercial systems—including **Vercel Next.js**, **Cloudflare Workers**, **Supabase**, **ApeWorX web3.py**, **ArcticDB**, and **Anthropic Model Context Protocol (MCP)**. Halts async deadlocks, cancelled future lock poisoning, rejected WebSocket upgrades, and client-server hydration shifts.
 > * **Tier 3: Specialized Developer Tooling, Domain SDKs & Utilities**: Guards testing harnesses, hardware wallet firmware (**Ledger Ragger**), fintech integration pipelines (**Coinbase SDK**, **Goldman Sachs JDMN**), and fine-tuning architectures (**Meta TorchTune**). Eliminates linter drift and cross-platform path incompatibilities.
 > 
@@ -158,6 +158,7 @@ ZeroSlop is not marketing theory. It is powered by the exact invariant engine th
 
 | System | Stack | Architectural Invariant Delivered | Upstream Status |
 | :--- | :--- | :--- | :---: |
+| **Apache Arrow (Rust)** | Columnar Format · Rust | Correctness fix for Fields::filter_leaves nested traversal on ListView and LargeListView | **Merged**<br/>[PR #11657](https://github.com/apache/arrow-rs/pull/11657) |
 | **DuckDB** | Database · C++ | PIVOT IN list zero-argument `row()` expression preservation and null dereference guard | **Merged**<br/>[PR #26443](https://github.com/duckdb/duckdb/pull/26443) |
 | **Meta Velox** | Query Engine · C++20 | TopNRowNumber in-memory rank ordering correctness and partition stream execution parity | **Merged**<br/>[PR #18529](https://github.com/facebookincubator/velox/pull/18529) |
 | **Apache DataFusion** | Query Engine · Rust | Execution-layer schema conformance across in-memory physical execution and aggregation | **Merged**<br/>[PR #24394](https://github.com/apache/datafusion/pull/24394) |
