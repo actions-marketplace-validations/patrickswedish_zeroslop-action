@@ -8,9 +8,10 @@
   <code>ZURICH · AMSTERDAM · EINDHOVEN</code> &nbsp;◆&nbsp;
   <a href="https://github.com/marketplace/actions/zeroslop-by-ribbsaeter-systems"><b>ZeroSlop™ Action</b></a> &nbsp;◆&nbsp;
   <a href="https://github.com/apps/zeroslop-engine"><b>1-Click GitHub App</b></a> &nbsp;◆&nbsp;
+  <a href="https://hf.co/spaces/Patrickribbsaeter/zeroslop-kv-cache-estimator"><b>KV Cache Estimator (Hugging Face)</b></a> &nbsp;◆&nbsp;
+  <a href="https://ribbsaetersystems.com/inference"><b>Inference Runtime</b></a> &nbsp;◆&nbsp;
   <a href="https://ribbsaetersystems.com/zeroslop"><b>Live Simulator</b></a> &nbsp;◆&nbsp;
-  <a href="https://ribbsaetersystems.com"><b>ribbsaetersystems.com</b></a> &nbsp;◆&nbsp;
-  <a href="https://patrickribbsaeter.com"><b>patrickribbsaeter.com</b></a>
+  <a href="https://ribbsaetersystems.com"><b>ribbsaetersystems.com</b></a>
 </p>
 
 <br/>
@@ -57,6 +58,8 @@
 > 🎁 **Two Free Trial Alternatives to Choose From**:
 > * 🚀 **Alternative 1: 14-Day Free Trial (1-Click GitHub App · Recommended for Orgs)**: Experience **2 full weeks completely free** with zero YAML configuration. Native webhook monitoring across all public and private repositories with automated in-place PR verdict cards. 👉 [**Start 14-Day Free Trial via GitHub App →**](https://github.com/apps/zeroslop-engine)
 > * ⚙️ **Alternative 2: 1-PR Instant Evaluation Try (GitHub Action · CI Pipeline Step)**: Test the airlock immediately on a single pull request directly within `.github/workflows/zeroslop.yml`. Zero credit card required; **1 complimentary PR audit** out of the box (locks after 1 PR). 👉 [**Try 1 PR Free on GitHub Marketplace →**](https://github.com/marketplace/actions/zeroslop-by-ribbsaeter-systems) · [Jump to Quickstart ↓](#quickstart)
+>
+> ⚡ **Inference Economics & The KV Cache Wall**: Diff minimization isn't just about clean Git histories. When autonomous agents generate bloated code, downstream context windows explode, choking GPU High-Bandwidth Memory (HBM). By purging 94% of synthetic diff bloat, ZeroSlop cuts multi-turn agent token burn and active KV Cache saturation by 50%–70%. 👉 [**Explore Interactive KV-Cache Estimator on Hugging Face →**](https://hf.co/spaces/Patrickribbsaeter/zeroslop-kv-cache-estimator)
 
 <br/>
 
