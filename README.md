@@ -65,6 +65,34 @@
 
 ---
 
+## 💰 The Economic Business Case: Why Engineering Leaders Mandate ZeroSlop
+
+AI coding agents (Cursor, Copilot, Claude Code) increased commit volume by 300%, but engineering velocity slowed down by 40% because senior staff architects are trapped acting as human linters for bloated, unverified PRs.
+
+### The Hard ROI Breakdown (10-Engineer Team)
+
+| Metric | Status Quo (Without ZeroSlop) | With ZeroSlop™ Sovereign Airlock | Net Velocity Impact |
+| :--- | :--- | :--- | :--- |
+| **PR Review Churn** | 15–20 hrs/wk per senior staff engineer | Under 2 hrs/wk (pre-verified at airlock) | **60+ senior hrs saved / sprint** |
+| **PR Turnaround** | 4.2 days average review queue bottleneck | 45 minutes from pull request to merge | **85% faster release cadence** |
+| **Public CI Failures** | 14+ failing check runs per draft PR | 100% green contributor checks on 1st push | **Zero public CI runner waste** |
+| **Review Payroll** | $160,000/yr senior payroll burned linting | **$348/yr** ($29/mo ZeroSlop Pro seat) | **$150,000+ engineering saved / yr** |
+| **Financial Return** | Continuous architectural velocity erosion | **18.2x+ Verified Annual Net ROI** | **Full Payback: < 48 Hours** |
+
+---
+
+## 🎯 Engineered for Every Decision Maker in Engineering
+
+| Engineering Role | Core Friction Solved | How ZeroSlop™ Delivers The Win |
+| :--- | :--- | :--- |
+| **Staff & Senior Devs** | Getting slammed with 20 review comments for bloated AI helpers. | **Surgical Invariant Output**: Strips 180-line diffs down to the 4 clean lines that preserve contracts. Zero CI humiliation. |
+| **Tech Leads & EMs** | PR queue backlogs and senior engineers trapped acting as human linters. | **70% Shorter PR Cycles**: Clears review bottlenecks so teams spend sprint capacity shipping core product features. |
+| **VPs of Engineering** | Hiring more developers slows release cadence and drives high cost of delay. | **Measurable Velocity Boost**: Reclaim 60+ senior hours per sprint and convert AI code volume into verified throughput. |
+| **CTOs & Architects** | Long-term architectural decay and subtle memory or concurrency leaks. | **Zero-Click Blast Radius**: Mathematically proves contracts and maps cross-layer reachability directly in GitHub. |
+| **CISOs & AppSec** | AI-introduced CWE flaws, prompt jailbreaks, and 3rd-party IP leaks. | **12-Shield CWE Gate & Zero Retention**: Blocks SQLi, IDOR, SSRF, and Pwn Requests deterministically in volatile RAM. |
+
+---
+
 ## 🏛️ The AI Code Slop Crisis
 
 Modern AI coding agents (Claude Code, Cursor, Devin, Copilot) generate extraordinary quantities of code in seconds. But without an invariant pre-flight gatekeeper, **over 80% of AI pull requests introduce structural debt**:
@@ -332,34 +360,6 @@ Competitors tell you *"the future isn't writing code—it's reviewing it and pri
 | **Slop Distillation** | **✓ Strips 94% of Hallucinated AI Wrappers** — Mechanically blocks unauthorized regression test deletions | ✕ Adds 25+ noisy bot comments on top of AI slop without shrinking the underlying pull request diff |
 | **CI Flake Isolation** | **✓ Isolates Contributor Code Defects** — Separates upstream runner flakes from maintainer triage gates | ✕ Blind to upstream GitHub Actions runner timeouts versus maintainer approval label gates |
 | **Code Retention** | **✓ Strictly Zero Source-Code Retention** — Ephemeral RAM Enclave compliant with Swiss FADP & GDPR | ⚠️ Ships proprietary diffs to 3rd-party LLM APIs or persists source code snapshots in cloud databases |
-
----
-
-## 💰 The Economic Business Case: Why Engineering Leaders Mandate ZeroSlop
-
-AI coding agents (Cursor, Copilot, Claude Code) increased commit volume by 300%, but engineering velocity slowed down by 40% because senior staff architects are trapped acting as human linters for bloated, unverified PRs.
-
-### The Hard ROI Breakdown (10-Engineer Team)
-
-| Metric | Status Quo (Without ZeroSlop) | With ZeroSlop™ Sovereign Airlock | Net Velocity Impact |
-| :--- | :--- | :--- | :--- |
-| **PR Review Churn** | 15–20 hrs/wk per senior staff engineer | Under 2 hrs/wk (pre-verified at airlock) | **60+ senior hrs saved / sprint** |
-| **PR Turnaround** | 4.2 days average review queue bottleneck | 45 minutes from pull request to merge | **85% faster release cadence** |
-| **Public CI Failures** | 14+ failing check runs per draft PR | 100% green contributor checks on 1st push | **Zero public CI runner waste** |
-| **Review Payroll** | $160,000/yr senior payroll burned linting | **$348/yr** ($29/mo ZeroSlop Pro seat) | **$150,000+ engineering saved / yr** |
-| **Financial Return** | Continuous architectural velocity erosion | **18.2x+ Verified Annual Net ROI** | **Full Payback: < 48 Hours** |
-
----
-
-## 🎯 Engineered for Every Decision Maker in Engineering
-
-| Engineering Role | Core Friction Solved | How ZeroSlop™ Delivers The Win |
-| :--- | :--- | :--- |
-| **Staff & Senior Devs** | Getting slammed with 20 review comments for bloated AI helpers. | **Surgical Invariant Output**: Strips 180-line diffs down to the 4 clean lines that preserve contracts. Zero CI humiliation. |
-| **Tech Leads & EMs** | PR queue backlogs and senior engineers trapped acting as human linters. | **70% Shorter PR Cycles**: Clears review bottlenecks so teams spend sprint capacity shipping core product features. |
-| **VPs of Engineering** | Hiring more developers slows release cadence and drives high cost of delay. | **Measurable Velocity Boost**: Reclaim 60+ senior hours per sprint and convert AI code volume into verified throughput. |
-| **CTOs & Architects** | Long-term architectural decay and subtle memory or concurrency leaks. | **Zero-Click Blast Radius**: Mathematically proves contracts and maps cross-layer reachability directly in GitHub. |
-| **CISOs & AppSec** | AI-introduced CWE flaws, prompt jailbreaks, and 3rd-party IP leaks. | **12-Shield CWE Gate & Zero Retention**: Blocks SQLi, IDOR, SSRF, and Pwn Requests deterministically in volatile RAM. |
 
 ---
 
