@@ -1,8 +1,8 @@
 <div align="center">
 
-<img src="./assets/ribbsaeter_systems_hero.png" width="100%" alt="Ribbsaeter Systems — Builds Serious Systems" />
+<img src="./assets/zeroslop-banner.svg" width="100%" alt="ZeroSlop™ by Ribbsaeter Systems — Autonomous CI Pull Request Invariant Gatekeeper &amp; Diff Minimization Engine" />
 
-<br/>
+<br/><br/>
 
 <p align="center">
   <code>ZURICH · AMSTERDAM · EINDHOVEN</code> &nbsp;◆&nbsp;
